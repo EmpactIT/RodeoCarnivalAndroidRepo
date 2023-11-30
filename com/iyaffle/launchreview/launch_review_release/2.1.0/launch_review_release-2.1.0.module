@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iyaffle.launchreview",
+    "module": "launch_review_release",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_release-2.1.0.aar",
+          "url": "launch_review_release-2.1.0.aar",
+          "size": 5682,
+          "sha512": "571a0a83916d8df88a77add8ae97147c0cf2a03f3e46b3cb099fc762c845d5fc0b421c67df5df6a132d2ebff747ca71ee4c0cc489cc9cddbf766baa030fec6ad",
+          "sha256": "e8acdf75dab2449b84e7cb6a1e8a617f5097583c304d5409d9d0ccce4339a607",
+          "sha1": "a001a06b0d454f6284cbdc50dff5352f3a6ea429",
+          "md5": "d98f2fbdcba89da646c7b89698c33569"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_release-2.1.0.aar",
+          "url": "launch_review_release-2.1.0.aar",
+          "size": 5682,
+          "sha512": "571a0a83916d8df88a77add8ae97147c0cf2a03f3e46b3cb099fc762c845d5fc0b421c67df5df6a132d2ebff747ca71ee4c0cc489cc9cddbf766baa030fec6ad",
+          "sha256": "e8acdf75dab2449b84e7cb6a1e8a617f5097583c304d5409d9d0ccce4339a607",
+          "sha1": "a001a06b0d454f6284cbdc50dff5352f3a6ea429",
+          "md5": "d98f2fbdcba89da646c7b89698c33569"
+        }
+      ]
+    }
+  ]
+}

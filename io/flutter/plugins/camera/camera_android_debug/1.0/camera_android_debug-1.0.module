@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "camera_android_debug-1.0.aar",
           "url": "camera_android_debug-1.0.aar",
-          "size": 126929,
-          "sha512": "1561be58ae9caf166cde0b8c8ddc049d1a0861d66a3b4025f4f0c7c499658182630b9b2830ff274bb37af1870a6cbe112fa8132453858071c8cc80afda947aea",
-          "sha256": "0578e005002d873d487ee839c4f66863a7802633b4f270a1a36c3efd76b1b3fa",
-          "sha1": "40353d15f08b3e6976ed246adf6cb09035d4d135",
-          "md5": "8d29925a63ff087a66b46abc1c8000b4"
+          "size": 125291,
+          "sha512": "223947fc7ea5a3121e05d67b3bd97bfd7af36a2b9a8df6ff0316bb92babce08a6a768933c886bd8d7c7c4f5cf8e4655217cc8feac8a3f3f46f10bdf1607bcf25",
+          "sha256": "11bed0ee0632cdd039c51751d39a14cf5ae1e8771b19e20bd8d7c01de05605fd",
+          "sha1": "29d879da9cdbfa4fee147bafd4684498ba9bf333",
+          "md5": "d391e7f8ad62bfac475ae643b38f9f2e"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
           }
         },
         {
@@ -78,11 +78,11 @@
         {
           "name": "camera_android_debug-1.0.aar",
           "url": "camera_android_debug-1.0.aar",
-          "size": 126929,
-          "sha512": "1561be58ae9caf166cde0b8c8ddc049d1a0861d66a3b4025f4f0c7c499658182630b9b2830ff274bb37af1870a6cbe112fa8132453858071c8cc80afda947aea",
-          "sha256": "0578e005002d873d487ee839c4f66863a7802633b4f270a1a36c3efd76b1b3fa",
-          "sha1": "40353d15f08b3e6976ed246adf6cb09035d4d135",
-          "md5": "8d29925a63ff087a66b46abc1c8000b4"
+          "size": 125291,
+          "sha512": "223947fc7ea5a3121e05d67b3bd97bfd7af36a2b9a8df6ff0316bb92babce08a6a768933c886bd8d7c7c4f5cf8e4655217cc8feac8a3f3f46f10bdf1607bcf25",
+          "sha256": "11bed0ee0632cdd039c51751d39a14cf5ae1e8771b19e20bd8d7c01de05605fd",
+          "sha1": "29d879da9cdbfa4fee147bafd4684498ba9bf333",
+          "md5": "d391e7f8ad62bfac475ae643b38f9f2e"
         }
       ]
     }

@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
           }
         }
       ],
@@ -36,10 +36,10 @@
           "name": "pay_android_profile-1.0.aar",
           "url": "pay_android_profile-1.0.aar",
           "size": 20360,
-          "sha512": "48a38374eae50334c90d39c8e1680f30d6901ea8d406431ea3db58212ebebc9f326265af9f86f63ac055ff380df0db15ca1c2996a6c6147ceb2c7b00338408f4",
-          "sha256": "14e7c59025f75b498d3d4c3128a5a94cef3242d49e849513ff8939349781675a",
-          "sha1": "e0a64579c59bae1b7e110c2510c4c196a5a16b2a",
-          "md5": "2820af19a43570724f0f3ce02cad9bae"
+          "sha512": "27a8826b8829aefd743dba71ec8793e3a9d94cb10e982f6ce1a8211e7fb1b4ba08dbd19afb5921b3e5e775f56f00004ba92ef4b7a550c3f5726436e9d7201c46",
+          "sha256": "1df3beb0377e935f8c7a9e58cf7781b584c2e34d082dde12134012deeaf37f2f",
+          "sha1": "c044fd1f57235b33310cde7f865b1a947a5fd1a6",
+          "md5": "d1b63f37548c6c3695c7082a7a642cae"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
           }
         },
         {
@@ -79,10 +79,10 @@
           "name": "pay_android_profile-1.0.aar",
           "url": "pay_android_profile-1.0.aar",
           "size": 20360,
-          "sha512": "48a38374eae50334c90d39c8e1680f30d6901ea8d406431ea3db58212ebebc9f326265af9f86f63ac055ff380df0db15ca1c2996a6c6147ceb2c7b00338408f4",
-          "sha256": "14e7c59025f75b498d3d4c3128a5a94cef3242d49e849513ff8939349781675a",
-          "sha1": "e0a64579c59bae1b7e110c2510c4c196a5a16b2a",
-          "md5": "2820af19a43570724f0f3ce02cad9bae"
+          "sha512": "27a8826b8829aefd743dba71ec8793e3a9d94cb10e982f6ce1a8211e7fb1b4ba08dbd19afb5921b3e5e775f56f00004ba92ef4b7a550c3f5726436e9d7201c46",
+          "sha256": "1df3beb0377e935f8c7a9e58cf7781b584c2e34d082dde12134012deeaf37f2f",
+          "sha1": "c044fd1f57235b33310cde7f865b1a947a5fd1a6",
+          "md5": "d1b63f37548c6c3695c7082a7a642cae"
         }
       ]
     }
