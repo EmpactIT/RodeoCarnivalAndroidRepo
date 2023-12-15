@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pathprovider",
+    "module": "path_provider_android_release",
+    "version": "2.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-2.1.4.aar",
+          "url": "path_provider_android_release-2.1.4.aar",
+          "size": 12641,
+          "sha512": "7e51a7c4305e022c7615f2a2e4ae96a833f81a6280ce1b9c9007c13b7a1f5ad6a219e4f62801e54840b2e296ce9f84d03340a150b1196d2dff795f9df5dba9a2",
+          "sha256": "7c47c470f47ae9e0f225bf07aa070b22a61420507d50f8a59b48f417ac95585f",
+          "sha1": "89b228aca0d4752a6a9ca05d13a2d04718248ac5",
+          "md5": "38f9229dd423e93e32518c48f2003163"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-2.1.4.aar",
+          "url": "path_provider_android_release-2.1.4.aar",
+          "size": 12641,
+          "sha512": "7e51a7c4305e022c7615f2a2e4ae96a833f81a6280ce1b9c9007c13b7a1f5ad6a219e4f62801e54840b2e296ce9f84d03340a150b1196d2dff795f9df5dba9a2",
+          "sha256": "7c47c470f47ae9e0f225bf07aa070b22a61420507d50f8a59b48f417ac95585f",
+          "sha1": "89b228aca0d4752a6a9ca05d13a2d04718248ac5",
+          "md5": "38f9229dd423e93e32518c48f2003163"
+        }
+      ]
+    }
+  ]
+}
