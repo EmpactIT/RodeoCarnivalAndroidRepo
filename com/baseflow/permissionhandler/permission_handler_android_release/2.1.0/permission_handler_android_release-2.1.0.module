@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.permissionhandler",
+    "module": "permission_handler_android_release",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_release-2.1.0.aar",
+          "url": "permission_handler_android_release-2.1.0.aar",
+          "size": 25103,
+          "sha512": "29b56e4104b49e23f7e2677db7392dcd19851f31113e7cf83bec2c142a7c1c78080f571d991b060ecd7efe9888eb50c46d8aef0da2304ee6ae943b62fbf7e4a0",
+          "sha256": "52d15a2a05b4d9318d6219766388685fec29e2e74c9e3b491cd56ebdc501ba44",
+          "sha1": "2dc2c69319e691b37999662666a141be5ebf3775",
+          "md5": "b60709095999d9663930774c8da5713c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_release-2.1.0.aar",
+          "url": "permission_handler_android_release-2.1.0.aar",
+          "size": 25103,
+          "sha512": "29b56e4104b49e23f7e2677db7392dcd19851f31113e7cf83bec2c142a7c1c78080f571d991b060ecd7efe9888eb50c46d8aef0da2304ee6ae943b62fbf7e4a0",
+          "sha256": "52d15a2a05b4d9318d6219766388685fec29e2e74c9e3b491cd56ebdc501ba44",
+          "sha1": "2dc2c69319e691b37999662666a141be5ebf3775",
+          "md5": "b60709095999d9663930774c8da5713c"
+        }
+      ]
+    }
+  ]
+}

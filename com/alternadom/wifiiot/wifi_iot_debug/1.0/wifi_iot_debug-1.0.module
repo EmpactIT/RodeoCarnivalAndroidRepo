@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-1.0.aar",
+          "url": "wifi_iot_debug-1.0.aar",
+          "size": 40931,
+          "sha512": "df0f30737d0eabf547b19565346bf25c60a76a8da6e8a3e35e25635e49e257c30a5d6b8faaa99e0f05503fec3b2b34fdc3f4eb3b8e1df7ea41e36b36530e20a0",
+          "sha256": "7a800a56cc6b2e095ae52fe045163910355345c2884c12cdf17393de3b4fa23e",
+          "sha1": "3418cff4ca6f6b3fb6643e04b4688d59592a5a1a",
+          "md5": "41867a5edd9fb27c31856cd0eae9ccda"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-1.0.aar",
+          "url": "wifi_iot_debug-1.0.aar",
+          "size": 40931,
+          "sha512": "df0f30737d0eabf547b19565346bf25c60a76a8da6e8a3e35e25635e49e257c30a5d6b8faaa99e0f05503fec3b2b34fdc3f4eb3b8e1df7ea41e36b36530e20a0",
+          "sha256": "7a800a56cc6b2e095ae52fe045163910355345c2884c12cdf17393de3b4fa23e",
+          "sha1": "3418cff4ca6f6b3fb6643e04b4688d59592a5a1a",
+          "md5": "41867a5edd9fb27c31856cd0eae9ccda"
+        }
+      ]
+    }
+  ]
+}
