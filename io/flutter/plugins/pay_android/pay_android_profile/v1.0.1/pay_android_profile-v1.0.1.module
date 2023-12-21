@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pay_android",
+    "module": "pay_android_profile",
+    "version": "v1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_profile-v1.0.1.aar",
+          "url": "pay_android_profile-v1.0.1.aar",
+          "size": 20360,
+          "sha512": "48a38374eae50334c90d39c8e1680f30d6901ea8d406431ea3db58212ebebc9f326265af9f86f63ac055ff380df0db15ca1c2996a6c6147ceb2c7b00338408f4",
+          "sha256": "14e7c59025f75b498d3d4c3128a5a94cef3242d49e849513ff8939349781675a",
+          "sha1": "e0a64579c59bae1b7e110c2510c4c196a5a16b2a",
+          "md5": "2820af19a43570724f0f3ce02cad9bae"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_profile-v1.0.1.aar",
+          "url": "pay_android_profile-v1.0.1.aar",
+          "size": 20360,
+          "sha512": "48a38374eae50334c90d39c8e1680f30d6901ea8d406431ea3db58212ebebc9f326265af9f86f63ac055ff380df0db15ca1c2996a6c6147ceb2c7b00338408f4",
+          "sha256": "14e7c59025f75b498d3d4c3128a5a94cef3242d49e849513ff8939349781675a",
+          "sha1": "e0a64579c59bae1b7e110c2510c4c196a5a16b2a",
+          "md5": "2820af19a43570724f0f3ce02cad9bae"
+        }
+      ]
+    }
+  ]
+}
