@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "geocoding_android_debug-v1.1.0.aar",
           "url": "geocoding_android_debug-v1.1.0.aar",
-          "size": 10852,
-          "sha512": "1ac10673d3299dd810e21745c8d743d30b5f5b5f7e654e2753e8d42c389a3200ef12907edf2c1a898fda97557c9b2b0817fe6e27306e0e49324bec50f82d784d",
-          "sha256": "e55ee4e6243e4b5c52d8d3bab481189c6624b433bd2c36afe3c26c618497a24a",
-          "sha1": "5fb69c88a86147139d50df5b2f1e33007cff4895",
-          "md5": "24020e459104cce076c194249447b2bc"
+          "size": 10921,
+          "sha512": "137306eaa5ba51b15c60fc64aa9242628b2af4bc928d794560c20fadf69b4177b618ec547c73952acf482bde59255edf9f267c278740b54d4b676f88a258c38a",
+          "sha256": "b5412b40ef3660101ebf40754eff562e9d56a3cce23682efa01706c85e5a7aea",
+          "sha1": "55f64f676b3e9ae8c3f35a117679bda9c40261ae",
+          "md5": "888e320923e8c5b9103a4d965d96aa30"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         }
       ],
@@ -64,11 +64,11 @@
         {
           "name": "geocoding_android_debug-v1.1.0.aar",
           "url": "geocoding_android_debug-v1.1.0.aar",
-          "size": 10852,
-          "sha512": "1ac10673d3299dd810e21745c8d743d30b5f5b5f7e654e2753e8d42c389a3200ef12907edf2c1a898fda97557c9b2b0817fe6e27306e0e49324bec50f82d784d",
-          "sha256": "e55ee4e6243e4b5c52d8d3bab481189c6624b433bd2c36afe3c26c618497a24a",
-          "sha1": "5fb69c88a86147139d50df5b2f1e33007cff4895",
-          "md5": "24020e459104cce076c194249447b2bc"
+          "size": 10921,
+          "sha512": "137306eaa5ba51b15c60fc64aa9242628b2af4bc928d794560c20fadf69b4177b618ec547c73952acf482bde59255edf9f267c278740b54d4b676f88a258c38a",
+          "sha256": "b5412b40ef3660101ebf40754eff562e9d56a3cce23682efa01706c85e5a7aea",
+          "sha1": "55f64f676b3e9ae8c3f35a117679bda9c40261ae",
+          "md5": "888e320923e8c5b9103a4d965d96aa30"
         }
       ]
     }

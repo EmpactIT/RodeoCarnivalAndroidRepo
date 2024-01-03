@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "wifi_scan_profile-v1.1.0.aar",
           "url": "wifi_scan_profile-v1.1.0.aar",
-          "size": 19120,
-          "sha512": "cf97bd3bad5cac60121c94e9d0b51a95784064e288284d232a6fd2962e452f9fc94e14d034e07691aa12dd682c8385eb84d54f01f034c8b6610b52338a0fb23f",
-          "sha256": "b227f79b5d9b46839658e59eb940fd5291fc2eaae2275d27da850d6468ddf03f",
-          "sha1": "250b3e1de3f7de03171b25088b2595388c4c9dab",
-          "md5": "e0b61ee2582cc9802d2752a3f843dcf9"
+          "size": 19116,
+          "sha512": "5e098cc8dae28a6fb325958a75425cdd78c0877086bd962b08938f48f7c292625e8e1e5fcbe4d8f187a0c6feaa0df52de4ca737ef941682f5eedb98ecd41a530",
+          "sha256": "39e0a82edb2400e7d2a548742507b4d32243a41c82ef28190c636be03127320a",
+          "sha1": "14209aab9ac05118d1d3f88cdc3cd6b82bbf658f",
+          "md5": "38d363b3f78157fe35fde2ec7bdc40df"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         },
         {
@@ -71,11 +71,11 @@
         {
           "name": "wifi_scan_profile-v1.1.0.aar",
           "url": "wifi_scan_profile-v1.1.0.aar",
-          "size": 19120,
-          "sha512": "cf97bd3bad5cac60121c94e9d0b51a95784064e288284d232a6fd2962e452f9fc94e14d034e07691aa12dd682c8385eb84d54f01f034c8b6610b52338a0fb23f",
-          "sha256": "b227f79b5d9b46839658e59eb940fd5291fc2eaae2275d27da850d6468ddf03f",
-          "sha1": "250b3e1de3f7de03171b25088b2595388c4c9dab",
-          "md5": "e0b61ee2582cc9802d2752a3f843dcf9"
+          "size": 19116,
+          "sha512": "5e098cc8dae28a6fb325958a75425cdd78c0877086bd962b08938f48f7c292625e8e1e5fcbe4d8f187a0c6feaa0df52de4ca737ef941682f5eedb98ecd41a530",
+          "sha256": "39e0a82edb2400e7d2a548742507b4d32243a41c82ef28190c636be03127320a",
+          "sha1": "14209aab9ac05118d1d3f88cdc3cd6b82bbf658f",
+          "md5": "38d363b3f78157fe35fde2ec7bdc40df"
         }
       ]
     }

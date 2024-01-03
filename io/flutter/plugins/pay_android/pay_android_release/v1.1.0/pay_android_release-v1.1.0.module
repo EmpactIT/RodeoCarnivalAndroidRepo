@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "pay_android_release-v1.1.0.aar",
           "url": "pay_android_release-v1.1.0.aar",
-          "size": 20361,
-          "sha512": "e877e9e14a40d5d0f9849ba046740deb09b4b9eeab8102699f057d337fc078ad855f7239e620e3d6e184a99f0dfdc0343edb8aded44514784773d7a427d339d3",
-          "sha256": "0c0b9142226c3eacbd0c8fcebc6d05af8a1ce42b76ab78e87a635c8f127b25a0",
-          "sha1": "9ed498192f7edabed2f7205d5765f0e7e5709b7b",
-          "md5": "869e1f891e1bcd400ca154546a1ef7d9"
+          "size": 20358,
+          "sha512": "607d74726491ebdba6109340217c1ba498fffea7488859a56813f1d2971157fbd5acb5ebe2907d15abb3d6a9656c0d41d6da689c33b702bbba0e258adafc1bca",
+          "sha256": "02cf15943e121467fc0aa78bb148756b9d11b24edbc09428b3351d67f6343d6f",
+          "sha1": "c02c1ac84af0fe200e020b3fa5316c5bc0ca5f05",
+          "md5": "65d4b0239fb3b0fcad48b444e743647b"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
           }
         },
         {
@@ -78,11 +78,11 @@
         {
           "name": "pay_android_release-v1.1.0.aar",
           "url": "pay_android_release-v1.1.0.aar",
-          "size": 20361,
-          "sha512": "e877e9e14a40d5d0f9849ba046740deb09b4b9eeab8102699f057d337fc078ad855f7239e620e3d6e184a99f0dfdc0343edb8aded44514784773d7a427d339d3",
-          "sha256": "0c0b9142226c3eacbd0c8fcebc6d05af8a1ce42b76ab78e87a635c8f127b25a0",
-          "sha1": "9ed498192f7edabed2f7205d5765f0e7e5709b7b",
-          "md5": "869e1f891e1bcd400ca154546a1ef7d9"
+          "size": 20358,
+          "sha512": "607d74726491ebdba6109340217c1ba498fffea7488859a56813f1d2971157fbd5acb5ebe2907d15abb3d6a9656c0d41d6da689c33b702bbba0e258adafc1bca",
+          "sha256": "02cf15943e121467fc0aa78bb148756b9d11b24edbc09428b3351d67f6343d6f",
+          "sha1": "c02c1ac84af0fe200e020b3fa5316c5bc0ca5f05",
+          "md5": "65d4b0239fb3b0fcad48b444e743647b"
         }
       ]
     }
