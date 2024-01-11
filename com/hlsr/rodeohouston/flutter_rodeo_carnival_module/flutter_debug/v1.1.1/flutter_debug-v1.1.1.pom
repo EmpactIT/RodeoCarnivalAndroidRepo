@@ -121,6 +121,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.empactit.empactit_wifi</groupId>
+      <artifactId>empactit_wifi_debug</artifactId>
+      <version>v1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.baseflow.geocoding</groupId>
       <artifactId>geocoding_android_debug</artifactId>
       <version>v1.1.1</version>

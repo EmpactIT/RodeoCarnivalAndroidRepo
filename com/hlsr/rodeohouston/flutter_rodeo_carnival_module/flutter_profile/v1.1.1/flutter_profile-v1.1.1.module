@@ -143,6 +143,13 @@
           }
         },
         {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_profile",
+          "version": {
+            "requires": "v1.1.1"
+          }
+        },
+        {
           "group": "com.baseflow.geocoding",
           "module": "geocoding_android_profile",
           "version": {
@@ -175,11 +182,11 @@
         {
           "name": "flutter_profile-v1.1.1.aar",
           "url": "flutter_profile-v1.1.1.aar",
-          "size": 38937899,
-          "sha512": "406bb134a8cab4b94d41d96ef554eafaa2f5007442f5e78004d08b4d3bfe18fdcee0cbac718d7fc553edb029ccb4d7b134a985f2cef78f52f3ed350e66a39b13",
-          "sha256": "0da22a6e1fbbca8c6633e7ea11d2e437bae2383c8cc3533c5a6be9b1caeafe05",
-          "sha1": "7692b4982fdd3564afe7ae8e50a81fa22e6d4ce4",
-          "md5": "8c9567bf112cbc58b34b3b163991f3d0"
+          "size": 38910374,
+          "sha512": "2f535193e4e4cab5d963145f92e3b3e57b2b1e74266c1427eb9b33a312942a8388b8f88b93ca18827d1b52ad53140f1fe020f297a946d67192a026438c8eeaea",
+          "sha256": "23435c0c1797cf14577440a7cf5b3fbf69215089ead5f1d964a6c272c252daeb",
+          "sha1": "90e65e1130d714b022c28419f3e68fdb70d6755d",
+          "md5": "1cad78b0e78764633ae3b20de35cc4a2"
         }
       ]
     },
@@ -312,6 +319,13 @@
           }
         },
         {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_profile",
+          "version": {
+            "requires": "v1.1.1"
+          }
+        },
+        {
           "group": "com.baseflow.geocoding",
           "module": "geocoding_android_profile",
           "version": {
@@ -344,11 +358,11 @@
         {
           "name": "flutter_profile-v1.1.1.aar",
           "url": "flutter_profile-v1.1.1.aar",
-          "size": 38937899,
-          "sha512": "406bb134a8cab4b94d41d96ef554eafaa2f5007442f5e78004d08b4d3bfe18fdcee0cbac718d7fc553edb029ccb4d7b134a985f2cef78f52f3ed350e66a39b13",
-          "sha256": "0da22a6e1fbbca8c6633e7ea11d2e437bae2383c8cc3533c5a6be9b1caeafe05",
-          "sha1": "7692b4982fdd3564afe7ae8e50a81fa22e6d4ce4",
-          "md5": "8c9567bf112cbc58b34b3b163991f3d0"
+          "size": 38910374,
+          "sha512": "2f535193e4e4cab5d963145f92e3b3e57b2b1e74266c1427eb9b33a312942a8388b8f88b93ca18827d1b52ad53140f1fe020f297a946d67192a026438c8eeaea",
+          "sha256": "23435c0c1797cf14577440a7cf5b3fbf69215089ead5f1d964a6c272c252daeb",
+          "sha1": "90e65e1130d714b022c28419f3e68fdb70d6755d",
+          "md5": "1cad78b0e78764633ae3b20de35cc4a2"
         }
       ]
     }

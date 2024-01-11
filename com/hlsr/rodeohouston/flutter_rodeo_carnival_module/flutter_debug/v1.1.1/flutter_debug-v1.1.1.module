@@ -150,6 +150,13 @@
           }
         },
         {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_debug",
+          "version": {
+            "requires": "v1.1.1"
+          }
+        },
+        {
           "group": "com.baseflow.geocoding",
           "module": "geocoding_android_debug",
           "version": {
@@ -182,11 +189,11 @@
         {
           "name": "flutter_debug-v1.1.1.aar",
           "url": "flutter_debug-v1.1.1.aar",
-          "size": 46714706,
-          "sha512": "b1d4a5adf6751c77304e5dc60da2f46b0710dcaf2cee3e0cdcdfc84a486bfabf9e37d9a7eb4d39f9f8d160b3a9aa4888af9e35cfe9e38b21f2a619ddb27e4f13",
-          "sha256": "71d7e56daec508e891f91590afde9c81208909a02fe5d74288c183bcebe4c90a",
-          "sha1": "16be83781870d8239e399188369b6db89728707c",
-          "md5": "afb3ce1ad48d2fd7dcc618ad601e8670"
+          "size": 46736495,
+          "sha512": "438f1efdf273026dc0fcc779ead4979547f6e4e530235a44295b28cdedddf2d60825bf1ddfaba344be09e3e209620534806d1470083d726779ccadae2b165904",
+          "sha256": "9f6c1cd19f7f358795a8e12fb7631ae3019e96f8cff9aea8275e5baf68cdf1dc",
+          "sha1": "ffa4dabbe530e4413f41fd3298e50881597c34d6",
+          "md5": "dd5fcba9f28f0d1c8fd84fbb3fd50db4"
         }
       ]
     },
@@ -326,6 +333,13 @@
           }
         },
         {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_debug",
+          "version": {
+            "requires": "v1.1.1"
+          }
+        },
+        {
           "group": "com.baseflow.geocoding",
           "module": "geocoding_android_debug",
           "version": {
@@ -358,11 +372,11 @@
         {
           "name": "flutter_debug-v1.1.1.aar",
           "url": "flutter_debug-v1.1.1.aar",
-          "size": 46714706,
-          "sha512": "b1d4a5adf6751c77304e5dc60da2f46b0710dcaf2cee3e0cdcdfc84a486bfabf9e37d9a7eb4d39f9f8d160b3a9aa4888af9e35cfe9e38b21f2a619ddb27e4f13",
-          "sha256": "71d7e56daec508e891f91590afde9c81208909a02fe5d74288c183bcebe4c90a",
-          "sha1": "16be83781870d8239e399188369b6db89728707c",
-          "md5": "afb3ce1ad48d2fd7dcc618ad601e8670"
+          "size": 46736495,
+          "sha512": "438f1efdf273026dc0fcc779ead4979547f6e4e530235a44295b28cdedddf2d60825bf1ddfaba344be09e3e209620534806d1470083d726779ccadae2b165904",
+          "sha256": "9f6c1cd19f7f358795a8e12fb7631ae3019e96f8cff9aea8275e5baf68cdf1dc",
+          "sha1": "ffa4dabbe530e4413f41fd3298e50881597c34d6",
+          "md5": "dd5fcba9f28f0d1c8fd84fbb3fd50db4"
         }
       ]
     }
