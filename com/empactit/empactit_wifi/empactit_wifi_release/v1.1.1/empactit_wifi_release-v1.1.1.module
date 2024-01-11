@@ -35,11 +35,11 @@
         {
           "name": "empactit_wifi_release-v1.1.1.aar",
           "url": "empactit_wifi_release-v1.1.1.aar",
-          "size": 5769,
-          "sha512": "8bbfc1c1f42051da709fc4fd2afb13315b188cc4f46b2ee135e53cf9fca50237856827734c5e334240fdfdcb79a854b2240228da7df74b750167bc2cad289956",
-          "sha256": "adee31b183203d5dd570d3b00534dbe4c40a01ffdfa3e092898d23fd1f5f8dda",
-          "sha1": "979927f6d35c6c45c13718e9335d94e81a834959",
-          "md5": "c39a10b6b65c7be3de51e081559b55cf"
+          "size": 5775,
+          "sha512": "aa10db865edc756c68f9955e92ca7b193fc6142d9ba007bb55e58eaa890d341357decede8da21c86da18033337eb43e262e79cc5378dda46212037f7a6d4bb72",
+          "sha256": "7afab991cc2aeea0ad76a49cc86706b03e5e2bcafa390ac3c6d3beca55c06d71",
+          "sha1": "f0051b89a897c45ee2f761e9976c78fd3de9ba98",
+          "md5": "601b913f06cf1f4988f8e62af68787ad"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "empactit_wifi_release-v1.1.1.aar",
           "url": "empactit_wifi_release-v1.1.1.aar",
-          "size": 5769,
-          "sha512": "8bbfc1c1f42051da709fc4fd2afb13315b188cc4f46b2ee135e53cf9fca50237856827734c5e334240fdfdcb79a854b2240228da7df74b750167bc2cad289956",
-          "sha256": "adee31b183203d5dd570d3b00534dbe4c40a01ffdfa3e092898d23fd1f5f8dda",
-          "sha1": "979927f6d35c6c45c13718e9335d94e81a834959",
-          "md5": "c39a10b6b65c7be3de51e081559b55cf"
+          "size": 5775,
+          "sha512": "aa10db865edc756c68f9955e92ca7b193fc6142d9ba007bb55e58eaa890d341357decede8da21c86da18033337eb43e262e79cc5378dda46212037f7a6d4bb72",
+          "sha256": "7afab991cc2aeea0ad76a49cc86706b03e5e2bcafa390ac3c6d3beca55c06d71",
+          "sha1": "f0051b89a897c45ee2f761e9976c78fd3de9ba98",
+          "md5": "601b913f06cf1f4988f8e62af68787ad"
         }
       ]
     }

@@ -35,11 +35,11 @@
         {
           "name": "empactit_wifi_debug-v1.1.1.aar",
           "url": "empactit_wifi_debug-v1.1.1.aar",
-          "size": 5980,
-          "sha512": "feaf7ee2be597607288179b71188a701b175ebbd6b0f7bac4150a563a1f3260c71e3ecb2d69e6b23e757458c80cf75f6edd3cc1fa283e0fa7a32b3c9bde8d042",
-          "sha256": "b28f17b65c1e2f55a742739521aaee9f25afb69edb22d932f72cf4b0f2bc86e9",
-          "sha1": "5e98050c12973d1a7fafca11ef4e148a73c2755a",
-          "md5": "b25645da866b0513b3711d996099854b"
+          "size": 5981,
+          "sha512": "3358694e9f30db34512d6fbe9d3c58b1961da39c722eac1fca9a55eb2da7a917a2bdcab08a4e42cc7275173868625c0554cafcdd7a11906cb08c5b7a49be9f9e",
+          "sha256": "06b5b916d20ba3ba65455b1fc625aad399a4bf025fec15c16fa28fb41037fac5",
+          "sha1": "6341f50b3003991a6c5f3eb40278542f4af3eb9b",
+          "md5": "63e10040c376d084c4efa2034034b6e2"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "empactit_wifi_debug-v1.1.1.aar",
           "url": "empactit_wifi_debug-v1.1.1.aar",
-          "size": 5980,
-          "sha512": "feaf7ee2be597607288179b71188a701b175ebbd6b0f7bac4150a563a1f3260c71e3ecb2d69e6b23e757458c80cf75f6edd3cc1fa283e0fa7a32b3c9bde8d042",
-          "sha256": "b28f17b65c1e2f55a742739521aaee9f25afb69edb22d932f72cf4b0f2bc86e9",
-          "sha1": "5e98050c12973d1a7fafca11ef4e148a73c2755a",
-          "md5": "b25645da866b0513b3711d996099854b"
+          "size": 5981,
+          "sha512": "3358694e9f30db34512d6fbe9d3c58b1961da39c722eac1fca9a55eb2da7a917a2bdcab08a4e42cc7275173868625c0554cafcdd7a11906cb08c5b7a49be9f9e",
+          "sha256": "06b5b916d20ba3ba65455b1fc625aad399a4bf025fec15c16fa28fb41037fac5",
+          "sha1": "6341f50b3003991a6c5f3eb40278542f4af3eb9b",
+          "md5": "63e10040c376d084c4efa2034034b6e2"
         }
       ]
     }
