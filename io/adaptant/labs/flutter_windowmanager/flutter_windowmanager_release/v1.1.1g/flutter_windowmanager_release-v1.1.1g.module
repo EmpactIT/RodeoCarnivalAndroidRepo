@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.adaptant.labs.flutter_windowmanager",
+    "module": "flutter_windowmanager_release",
+    "version": "v1.1.1g",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_release-v1.1.1g.aar",
+          "url": "flutter_windowmanager_release-v1.1.1g.aar",
+          "size": 5650,
+          "sha512": "1f7af1b0a7e58c5e038dbc3f45d8e9897237221cb68c76eea516651db916f0382e39abb6cd7648bf87908acd3d03231e4feba5265799cdc34d8238db22c915fd",
+          "sha256": "d0a3de07b4ac67f907d68c217c9537cacccaf456b4f93164dc61049dfe9cff1e",
+          "sha1": "3ae2610b7e22c3456cdc4e9a63e496da268fd0b3",
+          "md5": "4942138791547cdd9feaa6871a295553"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_release-v1.1.1g.aar",
+          "url": "flutter_windowmanager_release-v1.1.1g.aar",
+          "size": 5650,
+          "sha512": "1f7af1b0a7e58c5e038dbc3f45d8e9897237221cb68c76eea516651db916f0382e39abb6cd7648bf87908acd3d03231e4feba5265799cdc34d8238db22c915fd",
+          "sha256": "d0a3de07b4ac67f907d68c217c9537cacccaf456b4f93164dc61049dfe9cff1e",
+          "sha1": "3ae2610b7e22c3456cdc4e9a63e496da268fd0b3",
+          "md5": "4942138791547cdd9feaa6871a295553"
+        }
+      ]
+    }
+  ]
+}

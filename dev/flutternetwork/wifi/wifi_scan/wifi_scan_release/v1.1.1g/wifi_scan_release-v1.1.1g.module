@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.flutternetwork.wifi.wifi_scan",
+    "module": "wifi_scan_release",
+    "version": "v1.1.1g",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_release-v1.1.1g.aar",
+          "url": "wifi_scan_release-v1.1.1g.aar",
+          "size": 19121,
+          "sha512": "1f61c84b7cfebd977ad7e05c4d7c0f1cf604f634bb974140e830752ec2a14702cfa15da302e28a8bbdca04dbc424b191cdda74bb3dceee23ee66b9638ce37be5",
+          "sha256": "ba15db66118ff4f3cabe94fe9ed903b561f520fba0b26040b9fff2121e8021e1",
+          "sha1": "ecfc77c9d8a4d8db3f29c17ad6ce443114e0b41c",
+          "md5": "f9ca4dd9e11c041df89a553fb944331a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_release-v1.1.1g.aar",
+          "url": "wifi_scan_release-v1.1.1g.aar",
+          "size": 19121,
+          "sha512": "1f61c84b7cfebd977ad7e05c4d7c0f1cf604f634bb974140e830752ec2a14702cfa15da302e28a8bbdca04dbc424b191cdda74bb3dceee23ee66b9638ce37be5",
+          "sha256": "ba15db66118ff4f3cabe94fe9ed903b561f520fba0b26040b9fff2121e8021e1",
+          "sha1": "ecfc77c9d8a4d8db3f29c17ad6ce443114e0b41c",
+          "md5": "f9ca4dd9e11c041df89a553fb944331a"
+        }
+      ]
+    }
+  ]
+}

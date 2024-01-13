@@ -3,13 +3,14 @@
   <groupId>io.adaptant.labs.flutter_windowmanager</groupId>
   <artifactId>flutter_windowmanager_release</artifactId>
   <versioning>
-    <latest>v1.1.1</latest>
-    <release>v1.1.1</release>
+    <latest>v1.1.1g</latest>
+    <release>v1.1.1g</release>
     <versions>
       <version>v1.0.1</version>
       <version>v1.1.0</version>
       <version>v1.1.1</version>
+      <version>v1.1.1g</version>
     </versions>
-    <lastUpdated>20240112160104</lastUpdated>
+    <lastUpdated>20240113141324</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_debug",
+    "version": "v1.1.1g",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-v1.1.1g.aar",
+          "url": "wifi_iot_debug-v1.1.1g.aar",
+          "size": 41554,
+          "sha512": "70cc59f7fd77bca21f38578b5f2d0b167cdf9f654eb188d5b50177d62bb69a5920d8b9794ca87d943f4bf09c239c0109b89d2a351f274ae413fc6d886374788b",
+          "sha256": "69bb8d1b8012740645ad94ba12ddf61c0b3c950081e8b23a8cbacaf5a7617f98",
+          "sha1": "59332b50e25c27ca41d161e1ae2aac68bad91d5b",
+          "md5": "35e16ad3830bdb1a5a29db612930de7f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-v1.1.1g.aar",
+          "url": "wifi_iot_debug-v1.1.1g.aar",
+          "size": 41554,
+          "sha512": "70cc59f7fd77bca21f38578b5f2d0b167cdf9f654eb188d5b50177d62bb69a5920d8b9794ca87d943f4bf09c239c0109b89d2a351f274ae413fc6d886374788b",
+          "sha256": "69bb8d1b8012740645ad94ba12ddf61c0b3c950081e8b23a8cbacaf5a7617f98",
+          "sha1": "59332b50e25c27ca41d161e1ae2aac68bad91d5b",
+          "md5": "35e16ad3830bdb1a5a29db612930de7f"
+        }
+      ]
+    }
+  ]
+}
