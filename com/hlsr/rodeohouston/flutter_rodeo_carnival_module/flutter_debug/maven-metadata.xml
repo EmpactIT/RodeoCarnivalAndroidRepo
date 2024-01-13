@@ -3,13 +3,14 @@
   <groupId>com.hlsr.rodeohouston.flutter_rodeo_carnival_module</groupId>
   <artifactId>flutter_debug</artifactId>
   <versioning>
-    <latest>v1.1.1</latest>
-    <release>v1.1.1</release>
+    <latest>v1.1.1d</latest>
+    <release>v1.1.1d</release>
     <versions>
       <version>v1.0.1</version>
       <version>v1.1.0</version>
       <version>v1.1.1</version>
+      <version>v1.1.1d</version>
     </versions>
-    <lastUpdated>20240112155856</lastUpdated>
+    <lastUpdated>20240113112920</lastUpdated>
   </versioning>
 </metadata>
