@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_release",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_release-v1.1.1h.aar",
+          "url": "wifi_iot_release-v1.1.1h.aar",
+          "size": 39479,
+          "sha512": "22b51b9f750c9adc6e4f94974ced5553e39def095d2597aadbef3e6b829129112e3929734b7bc463c03d4f2220ee3e0a652923ae141e2f1ada24e83db50d6934",
+          "sha256": "d77701330b4aa5522b3d4b47c621b706469a936d57bc2447ca4e66bdb116a868",
+          "sha1": "8b6ee47cd805d0c0d7cbe15e5b1e5b0fc81e938b",
+          "md5": "7aa62c3ca7493d9c2e8caa32e1656f85"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_release-v1.1.1h.aar",
+          "url": "wifi_iot_release-v1.1.1h.aar",
+          "size": 39479,
+          "sha512": "22b51b9f750c9adc6e4f94974ced5553e39def095d2597aadbef3e6b829129112e3929734b7bc463c03d4f2220ee3e0a652923ae141e2f1ada24e83db50d6934",
+          "sha256": "d77701330b4aa5522b3d4b47c621b706469a936d57bc2447ca4e66bdb116a868",
+          "sha1": "8b6ee47cd805d0c0d7cbe15e5b1e5b0fc81e938b",
+          "md5": "7aa62c3ca7493d9c2e8caa32e1656f85"
+        }
+      ]
+    }
+  ]
+}

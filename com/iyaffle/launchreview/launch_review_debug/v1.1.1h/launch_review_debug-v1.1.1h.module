@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iyaffle.launchreview",
+    "module": "launch_review_debug",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_debug-v1.1.1h.aar",
+          "url": "launch_review_debug-v1.1.1h.aar",
+          "size": 5957,
+          "sha512": "644d25f89bb724d58ac844e8126f7e801f25f61cd126d067605053aa68dabcacadb8f71192d60acaa3b86031cb8eded8eaa3de313510e01162e1c4d9939e3e14",
+          "sha256": "ffed60815a5d08969a2e98bc7a0baefc36b6ceac1ceb8863d88d2f78252af681",
+          "sha1": "cd502de051e7277c706622d7b0bc935f5e3cb6df",
+          "md5": "7eb9eb2b72829f92f3d500a66673e204"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_debug-v1.1.1h.aar",
+          "url": "launch_review_debug-v1.1.1h.aar",
+          "size": 5957,
+          "sha512": "644d25f89bb724d58ac844e8126f7e801f25f61cd126d067605053aa68dabcacadb8f71192d60acaa3b86031cb8eded8eaa3de313510e01162e1c4d9939e3e14",
+          "sha256": "ffed60815a5d08969a2e98bc7a0baefc36b6ceac1ceb8863d88d2f78252af681",
+          "sha1": "cd502de051e7277c706622d7b0bc935f5e3cb6df",
+          "md5": "7eb9eb2b72829f92f3d500a66673e204"
+        }
+      ]
+    }
+  ]
+}

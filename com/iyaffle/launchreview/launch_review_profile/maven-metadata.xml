@@ -3,14 +3,15 @@
   <groupId>com.iyaffle.launchreview</groupId>
   <artifactId>launch_review_profile</artifactId>
   <versioning>
-    <latest>v1.1.1g</latest>
-    <release>v1.1.1g</release>
+    <latest>v1.1.1h</latest>
+    <release>v1.1.1h</release>
     <versions>
       <version>v1.0.1</version>
       <version>v1.1.0</version>
       <version>v1.1.1</version>
       <version>v1.1.1g</version>
+      <version>v1.1.1h</version>
     </versions>
-    <lastUpdated>20240113141312</lastUpdated>
+    <lastUpdated>20240113185958</lastUpdated>
   </versioning>
 </metadata>

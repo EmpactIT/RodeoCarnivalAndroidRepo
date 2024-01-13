@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_profile",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_profile-v1.1.1h.aar",
+          "url": "wifi_iot_profile-v1.1.1h.aar",
+          "size": 39478,
+          "sha512": "1cde5e519becd14a77fe2da007e06159aa8e154ca9355ebcdddfe6ff5cc9734e304d95cf429b9842d2d75d05b4ef7aefb3e1ad796642745ce280026bacae2a9e",
+          "sha256": "ea9f3f01608e1438f047b83fb3f230828775115ded78bf9913a962297379a584",
+          "sha1": "e5d471a810e5df524efd0b23b1355c4d31a76918",
+          "md5": "9e3ed61c7aa02adc765313bd0195a2ba"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_profile-v1.1.1h.aar",
+          "url": "wifi_iot_profile-v1.1.1h.aar",
+          "size": 39478,
+          "sha512": "1cde5e519becd14a77fe2da007e06159aa8e154ca9355ebcdddfe6ff5cc9734e304d95cf429b9842d2d75d05b4ef7aefb3e1ad796642745ce280026bacae2a9e",
+          "sha256": "ea9f3f01608e1438f047b83fb3f230828775115ded78bf9913a962297379a584",
+          "sha1": "e5d471a810e5df524efd0b23b1355c4d31a76918",
+          "md5": "9e3ed61c7aa02adc765313bd0195a2ba"
+        }
+      ]
+    }
+  ]
+}

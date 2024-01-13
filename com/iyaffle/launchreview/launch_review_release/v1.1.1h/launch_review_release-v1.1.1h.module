@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iyaffle.launchreview",
+    "module": "launch_review_release",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_release-v1.1.1h.aar",
+          "url": "launch_review_release-v1.1.1h.aar",
+          "size": 5720,
+          "sha512": "7b1959d7cde186706ba4c512fdac670555e106546ed5ac6a5e00255a153d1ce4bad65bbdcb1db528c8f7b0915a91e036e19c5d117d195f03d8b33d28bb16e1a8",
+          "sha256": "4b6b425d39c513178cc26a2b94a1824ec9296344236e32f0b1a4aa203d1c2d28",
+          "sha1": "47ea3fb9fdfcb21fd6295c1a1a00b5e353000642",
+          "md5": "8a825f6daba4862af261f000edee71b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_release-v1.1.1h.aar",
+          "url": "launch_review_release-v1.1.1h.aar",
+          "size": 5720,
+          "sha512": "7b1959d7cde186706ba4c512fdac670555e106546ed5ac6a5e00255a153d1ce4bad65bbdcb1db528c8f7b0915a91e036e19c5d117d195f03d8b33d28bb16e1a8",
+          "sha256": "4b6b425d39c513178cc26a2b94a1824ec9296344236e32f0b1a4aa203d1c2d28",
+          "sha1": "47ea3fb9fdfcb21fd6295c1a1a00b5e353000642",
+          "md5": "8a825f6daba4862af261f000edee71b2"
+        }
+      ]
+    }
+  ]
+}

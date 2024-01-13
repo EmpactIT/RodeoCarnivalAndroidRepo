@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pay_android",
+    "module": "pay_android_debug",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_debug-v1.1.1h.aar",
+          "url": "pay_android_debug-v1.1.1h.aar",
+          "size": 21118,
+          "sha512": "1a10e86ac373acb46c782e596e8e0cf0780617ca1485688761b25f479ec4800488d9b18f1069298dd6d8aa86df1a9c61ade2cc06ab5f62996c27be1e42d7065a",
+          "sha256": "0cca67c7c5bbd1eea2d57cda18412f85b07645e35851bd957a3454a2df02f57a",
+          "sha1": "0e2aaa43af40673ae06641975d58f02557d00e31",
+          "md5": "0907aae9fa83874735599a91437dff9b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_debug-v1.1.1h.aar",
+          "url": "pay_android_debug-v1.1.1h.aar",
+          "size": 21118,
+          "sha512": "1a10e86ac373acb46c782e596e8e0cf0780617ca1485688761b25f479ec4800488d9b18f1069298dd6d8aa86df1a9c61ade2cc06ab5f62996c27be1e42d7065a",
+          "sha256": "0cca67c7c5bbd1eea2d57cda18412f85b07645e35851bd957a3454a2df02f57a",
+          "sha1": "0e2aaa43af40673ae06641975d58f02557d00e31",
+          "md5": "0907aae9fa83874735599a91437dff9b"
+        }
+      ]
+    }
+  ]
+}

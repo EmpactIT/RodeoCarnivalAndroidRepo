@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.permissionhandler",
+    "module": "permission_handler_android_debug",
+    "version": "v1.1.1h",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_debug-v1.1.1h.aar",
+          "url": "permission_handler_android_debug-v1.1.1h.aar",
+          "size": 26393,
+          "sha512": "0fb404fee8b3a1cc9982c4bdf35d3e6fc21357fe087474d566d5747024a394572251fef6c0135d9ff8cdeddaa4ccf394083a4bfa517e2748f20213bef086b861",
+          "sha256": "b9224cecd0c8768ece82fd537c006880d4eead5b9e128b23e283edcdcba2aedc",
+          "sha1": "85fe99e8295a22740bb017b132c93f2571a6710c",
+          "md5": "992da34c8b58e7daaea5609ff32f7171"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "permission_handler_android_debug-v1.1.1h.aar",
+          "url": "permission_handler_android_debug-v1.1.1h.aar",
+          "size": 26393,
+          "sha512": "0fb404fee8b3a1cc9982c4bdf35d3e6fc21357fe087474d566d5747024a394572251fef6c0135d9ff8cdeddaa4ccf394083a4bfa517e2748f20213bef086b861",
+          "sha256": "b9224cecd0c8768ece82fd537c006880d4eead5b9e128b23e283edcdcba2aedc",
+          "sha1": "85fe99e8295a22740bb017b132c93f2571a6710c",
+          "md5": "992da34c8b58e7daaea5609ff32f7171"
+        }
+      ]
+    }
+  ]
+}
