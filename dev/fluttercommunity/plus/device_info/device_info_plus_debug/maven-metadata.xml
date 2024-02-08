@@ -3,11 +3,11 @@
   <groupId>dev.fluttercommunity.plus.device_info</groupId>
   <artifactId>device_info_plus_debug</artifactId>
   <versioning>
-    <latest>v1.1.2</latest>
-    <release>v1.1.2</release>
+    <latest>v1.1.3</latest>
+    <release>v1.1.3</release>
     <versions>
-      <version>v1.1.2</version>
+      <version>v1.1.3</version>
     </versions>
-    <lastUpdated>20240120113446</lastUpdated>
+    <lastUpdated>20240208125945</lastUpdated>
   </versioning>
 </metadata>

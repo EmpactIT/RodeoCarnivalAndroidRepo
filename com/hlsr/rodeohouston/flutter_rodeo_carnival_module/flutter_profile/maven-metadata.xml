@@ -3,11 +3,11 @@
   <groupId>com.hlsr.rodeohouston.flutter_rodeo_carnival_module</groupId>
   <artifactId>flutter_profile</artifactId>
   <versioning>
-    <latest>v1.1.2</latest>
-    <release>v1.1.2</release>
+    <latest>v1.1.3</latest>
+    <release>v1.1.3</release>
     <versions>
-      <version>v1.1.2</version>
+      <version>v1.1.3</version>
     </versions>
-    <lastUpdated>20240120113606</lastUpdated>
+    <lastUpdated>20240208130052</lastUpdated>
   </versioning>
 </metadata>

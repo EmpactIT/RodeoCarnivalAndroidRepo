@@ -3,11 +3,11 @@
   <groupId>dev.flutternetwork.wifi.wifi_scan</groupId>
   <artifactId>wifi_scan_debug</artifactId>
   <versioning>
-    <latest>v1.1.2</latest>
-    <release>v1.1.2</release>
+    <latest>v1.1.3</latest>
+    <release>v1.1.3</release>
     <versions>
-      <version>v1.1.2</version>
+      <version>v1.1.3</version>
     </versions>
-    <lastUpdated>20240120113511</lastUpdated>
+    <lastUpdated>20240208125957</lastUpdated>
   </versioning>
 </metadata>
