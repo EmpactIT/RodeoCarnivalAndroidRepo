@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.flutternetwork.wifi.wifi_scan",
+    "module": "wifi_scan_profile",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_profile-2.0.0.aar",
+          "url": "wifi_scan_profile-2.0.0.aar",
+          "size": 19536,
+          "sha512": "1e6de94719d800ba143b2fef3c60701d78867b2aeb9e1fb72b4dd61c5ee235883093c2b7a01ee1464e929c223c5c7061c8750f0caae49bca6d64e2759776f472",
+          "sha256": "e28a721f8af912015415fc9ed48bd3bc401379dac63339fa74e1daeeca00f092",
+          "sha1": "020d7bb0ba2ecb3992ed2d08fdde572a25065145",
+          "md5": "cd3a19c3c37b2d3f06966e002d4f803e"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_profile-2.0.0.aar",
+          "url": "wifi_scan_profile-2.0.0.aar",
+          "size": 19536,
+          "sha512": "1e6de94719d800ba143b2fef3c60701d78867b2aeb9e1fb72b4dd61c5ee235883093c2b7a01ee1464e929c223c5c7061c8750f0caae49bca6d64e2759776f472",
+          "sha256": "e28a721f8af912015415fc9ed48bd3bc401379dac63339fa74e1daeeca00f092",
+          "sha1": "020d7bb0ba2ecb3992ed2d08fdde572a25065145",
+          "md5": "cd3a19c3c37b2d3f06966e002d4f803e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fingerprintjs.flutter.fpjs_pro.fpjs_pro_plugin",
+    "module": "fpjs_pro_plugin_debug",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpjs_pro_plugin_debug-2.0.0.aar",
+          "url": "fpjs_pro_plugin_debug-2.0.0.aar",
+          "size": 18301,
+          "sha512": "bd2b3b0aff91b3a043dc9c68c0d7af1cbdab2bda208327b7755a846703c7fd5191c72e397563ee52206161e1b691efa3f34e689b662d556590d61d24440ebc99",
+          "sha256": "57316aea0499a40dd1fc1c6a5ca303c1d0b3abe77abf3571876091e910ff1927",
+          "sha1": "6f3be610c5fba969f1db3fd9b2e93fc2f52c9d71",
+          "md5": "562ad97b98668cd814611ece0362732b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "com.fingerprint.android",
+          "module": "pro",
+          "version": {
+            "requires": "2.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpjs_pro_plugin_debug-2.0.0.aar",
+          "url": "fpjs_pro_plugin_debug-2.0.0.aar",
+          "size": 18301,
+          "sha512": "bd2b3b0aff91b3a043dc9c68c0d7af1cbdab2bda208327b7755a846703c7fd5191c72e397563ee52206161e1b691efa3f34e689b662d556590d61d24440ebc99",
+          "sha256": "57316aea0499a40dd1fc1c6a5ca303c1d0b3abe77abf3571876091e910ff1927",
+          "sha1": "6f3be610c5fba969f1db3fd9b2e93fc2f52c9d71",
+          "md5": "562ad97b98668cd814611ece0362732b"
+        }
+      ]
+    }
+  ]
+}
