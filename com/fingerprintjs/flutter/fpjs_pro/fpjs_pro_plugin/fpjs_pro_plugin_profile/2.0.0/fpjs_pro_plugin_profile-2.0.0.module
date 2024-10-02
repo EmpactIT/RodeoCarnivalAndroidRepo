@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fingerprintjs.flutter.fpjs_pro.fpjs_pro_plugin",
+    "module": "fpjs_pro_plugin_profile",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpjs_pro_plugin_profile-2.0.0.aar",
+          "url": "fpjs_pro_plugin_profile-2.0.0.aar",
+          "size": 17488,
+          "sha512": "78df1a44cb715d2764a31e3f5b702eac595c5950a4169e7a49a1aca8636212edde20775ebbb50bd82f09f1bbcc6c1cbce8c6b037452f113f07050fcfd52dd07b",
+          "sha256": "0ba059468234a4de7082aa8393a11be251a6bf433a93cfacebbb996426e9518d",
+          "sha1": "6260f1279a777b6c18d1b1f46100178476343ba6",
+          "md5": "3d41af3d0d4640884e569d68d1c734d8"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "com.fingerprint.android",
+          "module": "pro",
+          "version": {
+            "requires": "2.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fpjs_pro_plugin_profile-2.0.0.aar",
+          "url": "fpjs_pro_plugin_profile-2.0.0.aar",
+          "size": 17488,
+          "sha512": "78df1a44cb715d2764a31e3f5b702eac595c5950a4169e7a49a1aca8636212edde20775ebbb50bd82f09f1bbcc6c1cbce8c6b037452f113f07050fcfd52dd07b",
+          "sha256": "0ba059468234a4de7082aa8393a11be251a6bf433a93cfacebbb996426e9518d",
+          "sha1": "6260f1279a777b6c18d1b1f46100178476343ba6",
+          "md5": "3d41af3d0d4640884e569d68d1c734d8"
+        }
+      ]
+    }
+  ]
+}
