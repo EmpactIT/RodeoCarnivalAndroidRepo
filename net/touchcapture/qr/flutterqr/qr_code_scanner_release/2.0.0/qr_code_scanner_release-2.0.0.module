@@ -35,11 +35,11 @@
         {
           "name": "qr_code_scanner_release-2.0.0.aar",
           "url": "qr_code_scanner_release-2.0.0.aar",
-          "size": 37522,
-          "sha512": "a6c3295ff77cbf27b51617391a2bd06c10d197b040e178695072bbaa66af0aac0892adbf161c70e035d247f530399c8411aa8711d8e3716ceb60dd9e9d154cd2",
-          "sha256": "f243c00e811ecb65dddb73a0ecd4d27208f4826105d8a1fad73cc401b542aa1e",
-          "sha1": "f715f0557c7beb4a02f2b1aa5c5448cb47ac9b90",
-          "md5": "e07759992fb6d84a72361e254b6d58e5"
+          "size": 36452,
+          "sha512": "a73d300485791e217efaa3f02cadef6c1da621415c6665f616792db262bb3417161b8bf4c42121dacfe0cc4f289961a0c5523526b228b9b62dfff7df60e0f150",
+          "sha256": "092aa1d80dfee92b80b785785902b54eb7346dde5f8b2fb18cd027d01253f1da",
+          "sha1": "aff9f749332c405afb42287a57824f5e7e87154b",
+          "md5": "b9262cf22bbf7afd866e9a8fd3eef7e6"
         }
       ]
     },
@@ -98,11 +98,11 @@
         {
           "name": "qr_code_scanner_release-2.0.0.aar",
           "url": "qr_code_scanner_release-2.0.0.aar",
-          "size": 37522,
-          "sha512": "a6c3295ff77cbf27b51617391a2bd06c10d197b040e178695072bbaa66af0aac0892adbf161c70e035d247f530399c8411aa8711d8e3716ceb60dd9e9d154cd2",
-          "sha256": "f243c00e811ecb65dddb73a0ecd4d27208f4826105d8a1fad73cc401b542aa1e",
-          "sha1": "f715f0557c7beb4a02f2b1aa5c5448cb47ac9b90",
-          "md5": "e07759992fb6d84a72361e254b6d58e5"
+          "size": 36452,
+          "sha512": "a73d300485791e217efaa3f02cadef6c1da621415c6665f616792db262bb3417161b8bf4c42121dacfe0cc4f289961a0c5523526b228b9b62dfff7df60e0f150",
+          "sha256": "092aa1d80dfee92b80b785785902b54eb7346dde5f8b2fb18cd027d01253f1da",
+          "sha1": "aff9f749332c405afb42287a57824f5e7e87154b",
+          "md5": "b9262cf22bbf7afd866e9a8fd3eef7e6"
         }
       ]
     }

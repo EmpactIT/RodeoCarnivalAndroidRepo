@@ -35,11 +35,11 @@
         {
           "name": "qr_code_scanner_debug-2.0.0.aar",
           "url": "qr_code_scanner_debug-2.0.0.aar",
-          "size": 38570,
-          "sha512": "99243b13124a68788b724dad1b37fa65c260f41729b055dba2dd6adeb7502344d67cd033a4b1f4827749a492db12f8ab48c54bc2240518980c4e19c4df466b4a",
-          "sha256": "f2d50a84246b2004cee0e3e90f5b9f821491f6681ec4e75ae8f9086a5b001476",
-          "sha1": "4c63d5a0e58b775365b75ab50ad67ad2ab75d763",
-          "md5": "4432cc201c20ec268c189bf3024d9705"
+          "size": 37427,
+          "sha512": "96345c9a8f6eb22fc4f5fdf7ea2bf87945904c0d35f952b90fcf71a528cbbe80f52f8d8033b712793b4f79e790b5446d4cf8cd9b52cf7967674fb1d2e981e72d",
+          "sha256": "e882e78c7a082778a6cf880cee03c4e60c310db93f966ac5db2b4a643afd4d2e",
+          "sha1": "237fd08e141847039d701990a11c5e05400b04ce",
+          "md5": "30a5f3c26a1639e9c29148326cf25e85"
         }
       ]
     },
@@ -98,11 +98,11 @@
         {
           "name": "qr_code_scanner_debug-2.0.0.aar",
           "url": "qr_code_scanner_debug-2.0.0.aar",
-          "size": 38570,
-          "sha512": "99243b13124a68788b724dad1b37fa65c260f41729b055dba2dd6adeb7502344d67cd033a4b1f4827749a492db12f8ab48c54bc2240518980c4e19c4df466b4a",
-          "sha256": "f2d50a84246b2004cee0e3e90f5b9f821491f6681ec4e75ae8f9086a5b001476",
-          "sha1": "4c63d5a0e58b775365b75ab50ad67ad2ab75d763",
-          "md5": "4432cc201c20ec268c189bf3024d9705"
+          "size": 37427,
+          "sha512": "96345c9a8f6eb22fc4f5fdf7ea2bf87945904c0d35f952b90fcf71a528cbbe80f52f8d8033b712793b4f79e790b5446d4cf8cd9b52cf7967674fb1d2e981e72d",
+          "sha256": "e882e78c7a082778a6cf880cee03c4e60c310db93f966ac5db2b4a643afd4d2e",
+          "sha1": "237fd08e141847039d701990a11c5e05400b04ce",
+          "md5": "30a5f3c26a1639e9c29148326cf25e85"
         }
       ]
     }

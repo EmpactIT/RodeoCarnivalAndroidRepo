@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_profile",
+    "version": "v2.0.0rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_profile-v2.0.0rc1.aar",
+          "url": "sqflite_profile-v2.0.0rc1.aar",
+          "size": 45708,
+          "sha512": "62a520528cd945872f19f8cb08153a89b2abce13e96b7232b11ad14ddbe56542d49f3a53d55f963d5f5951f16d5643e312cd26216c8d0ac5e6e659f804ce0977",
+          "sha256": "a58a35f2b5bd201b37c3824de4f386085ee28d31a50c6ac5663d31eee25af681",
+          "sha1": "858ca801550fcf49fb8019eb44cc130346916777",
+          "md5": "bdff43daabd90fcc73787566c3efef86"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_profile-v2.0.0rc1.aar",
+          "url": "sqflite_profile-v2.0.0rc1.aar",
+          "size": 45708,
+          "sha512": "62a520528cd945872f19f8cb08153a89b2abce13e96b7232b11ad14ddbe56542d49f3a53d55f963d5f5951f16d5643e312cd26216c8d0ac5e6e659f804ce0977",
+          "sha256": "a58a35f2b5bd201b37c3824de4f386085ee28d31a50c6ac5663d31eee25af681",
+          "sha1": "858ca801550fcf49fb8019eb44cc130346916777",
+          "md5": "bdff43daabd90fcc73787566c3efef86"
+        }
+      ]
+    }
+  ]
+}

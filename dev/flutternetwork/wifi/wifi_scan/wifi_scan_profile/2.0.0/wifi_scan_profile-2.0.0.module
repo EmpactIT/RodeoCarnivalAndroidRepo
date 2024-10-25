@@ -35,11 +35,11 @@
         {
           "name": "wifi_scan_profile-2.0.0.aar",
           "url": "wifi_scan_profile-2.0.0.aar",
-          "size": 19536,
-          "sha512": "1e6de94719d800ba143b2fef3c60701d78867b2aeb9e1fb72b4dd61c5ee235883093c2b7a01ee1464e929c223c5c7061c8750f0caae49bca6d64e2759776f472",
-          "sha256": "e28a721f8af912015415fc9ed48bd3bc401379dac63339fa74e1daeeca00f092",
-          "sha1": "020d7bb0ba2ecb3992ed2d08fdde572a25065145",
-          "md5": "cd3a19c3c37b2d3f06966e002d4f803e"
+          "size": 19114,
+          "sha512": "7fa4c85a3ef73ed7e7ddf646dca2e84b6a13153c8973964c33b2ad5cd7f4fbfe687946d623626ab39c569caa5220e8ba7529cc9bfbf1d60d5af37e69ba8480ff",
+          "sha256": "af71664bb247998ef17c8cd3e5e18d6405f8818a1ce5b4273e6515d25462ee6a",
+          "sha1": "24d06b88ad98f33cfd764ef7d2e9a024b534bc59",
+          "md5": "fa2ebc083d4fc35841682239dd335ac8"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "wifi_scan_profile-2.0.0.aar",
           "url": "wifi_scan_profile-2.0.0.aar",
-          "size": 19536,
-          "sha512": "1e6de94719d800ba143b2fef3c60701d78867b2aeb9e1fb72b4dd61c5ee235883093c2b7a01ee1464e929c223c5c7061c8750f0caae49bca6d64e2759776f472",
-          "sha256": "e28a721f8af912015415fc9ed48bd3bc401379dac63339fa74e1daeeca00f092",
-          "sha1": "020d7bb0ba2ecb3992ed2d08fdde572a25065145",
-          "md5": "cd3a19c3c37b2d3f06966e002d4f803e"
+          "size": 19114,
+          "sha512": "7fa4c85a3ef73ed7e7ddf646dca2e84b6a13153c8973964c33b2ad5cd7f4fbfe687946d623626ab39c569caa5220e8ba7529cc9bfbf1d60d5af37e69ba8480ff",
+          "sha256": "af71664bb247998ef17c8cd3e5e18d6405f8818a1ce5b4273e6515d25462ee6a",
+          "sha1": "24d06b88ad98f33cfd764ef7d2e9a024b534bc59",
+          "md5": "fa2ebc083d4fc35841682239dd335ac8"
         }
       ]
     }
