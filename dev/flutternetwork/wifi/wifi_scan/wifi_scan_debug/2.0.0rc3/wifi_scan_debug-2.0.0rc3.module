@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.flutternetwork.wifi.wifi_scan",
+    "module": "wifi_scan_debug",
+    "version": "2.0.0rc3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_debug-2.0.0rc3.aar",
+          "url": "wifi_scan_debug-2.0.0rc3.aar",
+          "size": 19939,
+          "sha512": "cd1a3df433c4d98752c401b9384aed0a1dee83fd3c8dd5084c596636bbee440ccce81ea35dd258106595bc9f5febdf871e3f56b36383cd3abc4c55a5e3870d63",
+          "sha256": "8ef0b020e78ecab703ba041cdb105192dac69e94ec2efae807551e2f43a033bf",
+          "sha1": "838c6478e71035b6aceb2c8a91170b75a47524fd",
+          "md5": "2b601f5bf8ca6bab3aca4030a278d7ac"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_debug-2.0.0rc3.aar",
+          "url": "wifi_scan_debug-2.0.0rc3.aar",
+          "size": 19939,
+          "sha512": "cd1a3df433c4d98752c401b9384aed0a1dee83fd3c8dd5084c596636bbee440ccce81ea35dd258106595bc9f5febdf871e3f56b36383cd3abc4c55a5e3870d63",
+          "sha256": "8ef0b020e78ecab703ba041cdb105192dac69e94ec2efae807551e2f43a033bf",
+          "sha1": "838c6478e71035b6aceb2c8a91170b75a47524fd",
+          "md5": "2b601f5bf8ca6bab3aca4030a278d7ac"
+        }
+      ]
+    }
+  ]
+}

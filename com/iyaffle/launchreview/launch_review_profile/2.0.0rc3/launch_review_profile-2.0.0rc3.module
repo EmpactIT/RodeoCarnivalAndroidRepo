@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iyaffle.launchreview",
+    "module": "launch_review_profile",
+    "version": "2.0.0rc3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_profile-2.0.0rc3.aar",
+          "url": "launch_review_profile-2.0.0rc3.aar",
+          "size": 5718,
+          "sha512": "04eb8475b16eafbfb924c90b9780cc9e3602c199c3a99e333215f808a98d9244431a9b30ab32aee6e7b1439e6e6e00c9680e95109379105a2c216db34f00eafd",
+          "sha256": "7d8618165e1320201096b34ca8f016c1baaa891dde498737824ffb48c0a996ea",
+          "sha1": "34b41a9c01e92b46c1e9b70d451a63e8b5c648c9",
+          "md5": "2a68794579d6822c4308ca3c771df9ce"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_profile-2.0.0rc3.aar",
+          "url": "launch_review_profile-2.0.0rc3.aar",
+          "size": 5718,
+          "sha512": "04eb8475b16eafbfb924c90b9780cc9e3602c199c3a99e333215f808a98d9244431a9b30ab32aee6e7b1439e6e6e00c9680e95109379105a2c216db34f00eafd",
+          "sha256": "7d8618165e1320201096b34ca8f016c1baaa891dde498737824ffb48c0a996ea",
+          "sha1": "34b41a9c01e92b46c1e9b70d451a63e8b5c648c9",
+          "md5": "2a68794579d6822c4308ca3c771df9ce"
+        }
+      ]
+    }
+  ]
+}
