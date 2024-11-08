@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.empactit.empactit_wifi",
+    "module": "empactit_wifi_profile",
+    "version": "v2.0.0rc6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_profile-v2.0.0rc6.aar",
+          "url": "empactit_wifi_profile-v2.0.0rc6.aar",
+          "size": 5772,
+          "sha512": "31948550b1c5cb4ccbabefc4c4eb906a49442612d533fdab4106ab72b85443054922e83b8da791cd58ac07d424a96c8056ab0ff82a83f2ca7d21679b78f5b35a",
+          "sha256": "bccc3617486846ee85a127a27dbee711cf348695e7f92710bbbcee0fb4ef2ed2",
+          "sha1": "3ffa88a17100dea10ebb414c6b78a469cc9fff0a",
+          "md5": "094d961530570d6c149d7cd04d013339"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.alternadom.wifiiot",
+          "module": "wifi_iot_profile",
+          "version": {
+            "requires": "v2.0.0rc6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_profile-v2.0.0rc6.aar",
+          "url": "empactit_wifi_profile-v2.0.0rc6.aar",
+          "size": 5772,
+          "sha512": "31948550b1c5cb4ccbabefc4c4eb906a49442612d533fdab4106ab72b85443054922e83b8da791cd58ac07d424a96c8056ab0ff82a83f2ca7d21679b78f5b35a",
+          "sha256": "bccc3617486846ee85a127a27dbee711cf348695e7f92710bbbcee0fb4ef2ed2",
+          "sha1": "3ffa88a17100dea10ebb414c6b78a469cc9fff0a",
+          "md5": "094d961530570d6c149d7cd04d013339"
+        }
+      ]
+    }
+  ]
+}

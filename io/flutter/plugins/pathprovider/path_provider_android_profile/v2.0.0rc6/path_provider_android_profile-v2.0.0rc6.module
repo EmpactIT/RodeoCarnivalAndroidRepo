@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pathprovider",
+    "module": "path_provider_android_profile",
+    "version": "v2.0.0rc6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_profile-v2.0.0rc6.aar",
+          "url": "path_provider_android_profile-v2.0.0rc6.aar",
+          "size": 12760,
+          "sha512": "1c7e38e504e7e4220b9697ffbe71230db6ab9ba3c8f07bdf7417e7c83730398068ebbe802b5335999a1394b2b64d18d6d9a8d9700a93eccc0627a22d19fbb4db",
+          "sha256": "33d2e86c62df190fac778f2637e87fdeb6038bd49916428175ca595864625a2b",
+          "sha1": "bec727fb15fe2cdd5b48f51a98243ed26ccb3905",
+          "md5": "ebc4aa21fd7dbffe1b75365a2a885e91"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_profile-v2.0.0rc6.aar",
+          "url": "path_provider_android_profile-v2.0.0rc6.aar",
+          "size": 12760,
+          "sha512": "1c7e38e504e7e4220b9697ffbe71230db6ab9ba3c8f07bdf7417e7c83730398068ebbe802b5335999a1394b2b64d18d6d9a8d9700a93eccc0627a22d19fbb4db",
+          "sha256": "33d2e86c62df190fac778f2637e87fdeb6038bd49916428175ca595864625a2b",
+          "sha1": "bec727fb15fe2cdd5b48f51a98243ed26ccb3905",
+          "md5": "ebc4aa21fd7dbffe1b75365a2a885e91"
+        }
+      ]
+    }
+  ]
+}
