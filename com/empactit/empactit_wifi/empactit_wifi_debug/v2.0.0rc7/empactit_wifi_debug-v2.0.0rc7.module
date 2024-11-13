@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.empactit.empactit_wifi",
+    "module": "empactit_wifi_debug",
+    "version": "v2.0.0rc7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_debug-v2.0.0rc7.aar",
+          "url": "empactit_wifi_debug-v2.0.0rc7.aar",
+          "size": 5981,
+          "sha512": "3358694e9f30db34512d6fbe9d3c58b1961da39c722eac1fca9a55eb2da7a917a2bdcab08a4e42cc7275173868625c0554cafcdd7a11906cb08c5b7a49be9f9e",
+          "sha256": "06b5b916d20ba3ba65455b1fc625aad399a4bf025fec15c16fa28fb41037fac5",
+          "sha1": "6341f50b3003991a6c5f3eb40278542f4af3eb9b",
+          "md5": "63e10040c376d084c4efa2034034b6e2"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.alternadom.wifiiot",
+          "module": "wifi_iot_debug",
+          "version": {
+            "requires": "v2.0.0rc7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_debug-v2.0.0rc7.aar",
+          "url": "empactit_wifi_debug-v2.0.0rc7.aar",
+          "size": 5981,
+          "sha512": "3358694e9f30db34512d6fbe9d3c58b1961da39c722eac1fca9a55eb2da7a917a2bdcab08a4e42cc7275173868625c0554cafcdd7a11906cb08c5b7a49be9f9e",
+          "sha256": "06b5b916d20ba3ba65455b1fc625aad399a4bf025fec15c16fa28fb41037fac5",
+          "sha1": "6341f50b3003991a6c5f3eb40278542f4af3eb9b",
+          "md5": "63e10040c376d084c4efa2034034b6e2"
+        }
+      ]
+    }
+  ]
+}
