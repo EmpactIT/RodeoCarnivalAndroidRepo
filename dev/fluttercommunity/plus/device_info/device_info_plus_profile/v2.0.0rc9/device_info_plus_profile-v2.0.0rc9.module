@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.device_info",
+    "module": "device_info_plus_profile",
+    "version": "v2.0.0rc9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_profile-v2.0.0rc9.aar",
+          "url": "device_info_plus_profile-v2.0.0rc9.aar",
+          "size": 9119,
+          "sha512": "92ab540f78fccf729e604035b02f302e5041f8ae67dcd159987bcedf0c70126cc07bf8062223969e959e431cbc483c1187d40a45b742a0d4ab8d1140566282de",
+          "sha256": "2ca2f60a093320f3ce80129d6aee6ee8521c08ce14857d6089dee6b9fe4af667",
+          "sha1": "63a4e9bbbb1e0d2ef9b14a2c666fd04e06a51b0c",
+          "md5": "2f7cc7f73f070b494d4b041849eb3d50"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_profile-v2.0.0rc9.aar",
+          "url": "device_info_plus_profile-v2.0.0rc9.aar",
+          "size": 9119,
+          "sha512": "92ab540f78fccf729e604035b02f302e5041f8ae67dcd159987bcedf0c70126cc07bf8062223969e959e431cbc483c1187d40a45b742a0d4ab8d1140566282de",
+          "sha256": "2ca2f60a093320f3ce80129d6aee6ee8521c08ce14857d6089dee6b9fe4af667",
+          "sha1": "63a4e9bbbb1e0d2ef9b14a2c666fd04e06a51b0c",
+          "md5": "2f7cc7f73f070b494d4b041849eb3d50"
+        }
+      ]
+    }
+  ]
+}
