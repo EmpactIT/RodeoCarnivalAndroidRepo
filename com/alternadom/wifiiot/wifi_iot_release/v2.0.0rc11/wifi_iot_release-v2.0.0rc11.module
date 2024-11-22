@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_release",
+    "version": "v2.0.0rc11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_release-v2.0.0rc11.aar",
+          "url": "wifi_iot_release-v2.0.0rc11.aar",
+          "size": 39475,
+          "sha512": "1de742ea3f20c97920eecc21e88960ae4866f91ea28c07a6f8e248ba30281f03bf72fc7d310eee2e3a26b6799fdbdd889813d06e4c1fecd2c4d45aed68d944b8",
+          "sha256": "02bd632b86294804d666fd326ca3e4ab77be8cebfee3b54baef75343c7314e28",
+          "sha1": "94e2a1b616b8897d0e82453407a36f35cf17c12f",
+          "md5": "ed4f184cfed1b731d223996fc0b9a950"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_release-v2.0.0rc11.aar",
+          "url": "wifi_iot_release-v2.0.0rc11.aar",
+          "size": 39475,
+          "sha512": "1de742ea3f20c97920eecc21e88960ae4866f91ea28c07a6f8e248ba30281f03bf72fc7d310eee2e3a26b6799fdbdd889813d06e4c1fecd2c4d45aed68d944b8",
+          "sha256": "02bd632b86294804d666fd326ca3e4ab77be8cebfee3b54baef75343c7314e28",
+          "sha1": "94e2a1b616b8897d0e82453407a36f35cf17c12f",
+          "md5": "ed4f184cfed1b731d223996fc0b9a950"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hlsr.rodeohouston.flutter_rodeo_carnival_module",
+    "module": "flutter_release",
+    "version": "v2.0.0rc11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.danieldallos.storeredirect",
+          "module": "store_redirect_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.flutternetwork.wifi.wifi_scan",
+          "module": "wifi_scan_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.googleapiavailability",
+          "module": "google_api_availability_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pay_android",
+          "module": "pay_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "net.touchcapture.qr.flutterqr",
+          "module": "qr_code_scanner_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.adaptant.labs.flutter_windowmanager",
+          "module": "flutter_windowmanager_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.geocoding",
+          "module": "geocoding_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.camera",
+          "module": "camera_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.alternadom.wifiiot",
+          "module": "wifi_iot_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.iyaffle.launchreview",
+          "module": "launch_review_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-v2.0.0rc11.aar",
+          "url": "flutter_release-v2.0.0rc11.aar",
+          "size": 36022711,
+          "sha512": "412e7bba2082a4420bc0f497304a4cc45be23d17cb29a2b7c60468b1ffd8e4bb0f313f2abd4708ff91d816e12ca66f5a5d641a1d213e8aa36f4246e379dff628",
+          "sha256": "86ec98b6cd78fc8ab790045257e54c8e7f85a2a482a92d4f0b64ceeabc2b9f45",
+          "sha1": "b9d179532299a9b4e254c550da9d56ecf91279af",
+          "md5": "5d738cf8ee0bcb586077bd0dcb1f1071"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.danieldallos.storeredirect",
+          "module": "store_redirect_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.flutternetwork.wifi.wifi_scan",
+          "module": "wifi_scan_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.googleapiavailability",
+          "module": "google_api_availability_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pay_android",
+          "module": "pay_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "net.touchcapture.qr.flutterqr",
+          "module": "qr_code_scanner_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.adaptant.labs.flutter_windowmanager",
+          "module": "flutter_windowmanager_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.empactit.empactit_wifi",
+          "module": "empactit_wifi_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.baseflow.geocoding",
+          "module": "geocoding_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.camera",
+          "module": "camera_android_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.alternadom.wifiiot",
+          "module": "wifi_iot_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        },
+        {
+          "group": "com.iyaffle.launchreview",
+          "module": "launch_review_release",
+          "version": {
+            "requires": "v2.0.0rc11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-v2.0.0rc11.aar",
+          "url": "flutter_release-v2.0.0rc11.aar",
+          "size": 36022711,
+          "sha512": "412e7bba2082a4420bc0f497304a4cc45be23d17cb29a2b7c60468b1ffd8e4bb0f313f2abd4708ff91d816e12ca66f5a5d641a1d213e8aa36f4246e379dff628",
+          "sha256": "86ec98b6cd78fc8ab790045257e54c8e7f85a2a482a92d4f0b64ceeabc2b9f45",
+          "sha1": "b9d179532299a9b4e254c550da9d56ecf91279af",
+          "md5": "5d738cf8ee0bcb586077bd0dcb1f1071"
+        }
+      ]
+    }
+  ]
+}
