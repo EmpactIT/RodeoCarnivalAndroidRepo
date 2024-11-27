@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.googleapiavailability",
+    "module": "google_api_availability_android_debug",
+    "version": "v2.0.0rc12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-v2.0.0rc12.aar",
+          "url": "google_api_availability_android_debug-v2.0.0rc12.aar",
+          "size": 14350,
+          "sha512": "6d7a9e3a71d7caae1ff064ed590322e49f07050fbc5e69d19a7a86b9bce5ed3655ec03d6b4eefd86d37dcb02a033faf1b689fd79e3cec2b5ea07392c952e6da4",
+          "sha256": "a94599b16a7c9af7e6e34d1ca43640716b70ab8500da918d168d5b4f7d88fe50",
+          "sha1": "5b39921cc48a3b3c35ad5f063c1180c5e6a53a06",
+          "md5": "6861488eadbb7915979ba1e24ee4663f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-v2.0.0rc12.aar",
+          "url": "google_api_availability_android_debug-v2.0.0rc12.aar",
+          "size": 14350,
+          "sha512": "6d7a9e3a71d7caae1ff064ed590322e49f07050fbc5e69d19a7a86b9bce5ed3655ec03d6b4eefd86d37dcb02a033faf1b689fd79e3cec2b5ea07392c952e6da4",
+          "sha256": "a94599b16a7c9af7e6e34d1ca43640716b70ab8500da918d168d5b4f7d88fe50",
+          "sha1": "5b39921cc48a3b3c35ad5f063c1180c5e6a53a06",
+          "md5": "6861488eadbb7915979ba1e24ee4663f"
+        }
+      ]
+    }
+  ]
+}

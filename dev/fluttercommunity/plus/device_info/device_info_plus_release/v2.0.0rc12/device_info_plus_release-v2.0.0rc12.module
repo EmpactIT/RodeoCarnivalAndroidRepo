@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.device_info",
+    "module": "device_info_plus_release",
+    "version": "v2.0.0rc12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-v2.0.0rc12.aar",
+          "url": "device_info_plus_release-v2.0.0rc12.aar",
+          "size": 9117,
+          "sha512": "a42d716ae7536fd52b97deba19e918a8d71d10d394f5b8d4bd9438b0af4e99d9ddbec8674fbe5663ad6ff3be2372695bfb2211bc58479747421cb8307ecf3db1",
+          "sha256": "5f36fb2a90edaef2e8f4450356d70202e30e33c36c54340cd5156399dde5566b",
+          "sha1": "266be6f9432c9f9ce065ef3f56fa8792f93dba8b",
+          "md5": "3b5b69eb70c758daec4f4914936442e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-v2.0.0rc12.aar",
+          "url": "device_info_plus_release-v2.0.0rc12.aar",
+          "size": 9117,
+          "sha512": "a42d716ae7536fd52b97deba19e918a8d71d10d394f5b8d4bd9438b0af4e99d9ddbec8674fbe5663ad6ff3be2372695bfb2211bc58479747421cb8307ecf3db1",
+          "sha256": "5f36fb2a90edaef2e8f4450356d70202e30e33c36c54340cd5156399dde5566b",
+          "sha1": "266be6f9432c9f9ce065ef3f56fa8792f93dba8b",
+          "md5": "3b5b69eb70c758daec4f4914936442e2"
+        }
+      ]
+    }
+  ]
+}
