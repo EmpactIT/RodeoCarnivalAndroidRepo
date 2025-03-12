@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.danieldallos.storeredirect",
+    "module": "store_redirect_debug",
+    "version": "v2.0.1rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-v2.0.1rc1.aar",
+          "url": "store_redirect_debug-v2.0.1rc1.aar",
+          "size": 5074,
+          "sha512": "8ca4417138deec62e0500267347a22c4c994d0b9f6616ac41fad16cb051773bf766b55045d581b6987be46ab51799f7d366642a528580ab77f8a04342b72be64",
+          "sha256": "520bc98a2804e8bfd277ee3e63f5631edfb87e0e45bdbeadb1ccf12d1c229452",
+          "sha1": "b2d291bde1c731a45bea9f7a9dad640bf60f4633",
+          "md5": "6f0d24e57c11d111aa1ead3fd15c2fd1"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-v2.0.1rc1.aar",
+          "url": "store_redirect_debug-v2.0.1rc1.aar",
+          "size": 5074,
+          "sha512": "8ca4417138deec62e0500267347a22c4c994d0b9f6616ac41fad16cb051773bf766b55045d581b6987be46ab51799f7d366642a528580ab77f8a04342b72be64",
+          "sha256": "520bc98a2804e8bfd277ee3e63f5631edfb87e0e45bdbeadb1ccf12d1c229452",
+          "sha1": "b2d291bde1c731a45bea9f7a9dad640bf60f4633",
+          "md5": "6f0d24e57c11d111aa1ead3fd15c2fd1"
+        }
+      ]
+    }
+  ]
+}

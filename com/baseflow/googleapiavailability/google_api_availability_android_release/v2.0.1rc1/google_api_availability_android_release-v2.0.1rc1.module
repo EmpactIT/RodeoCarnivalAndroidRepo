@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.googleapiavailability",
+    "module": "google_api_availability_android_release",
+    "version": "v2.0.1rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_release-v2.0.1rc1.aar",
+          "url": "google_api_availability_android_release-v2.0.1rc1.aar",
+          "size": 13813,
+          "sha512": "368a4a15a6457cb7706fc21c55e9e02b205d8efd5366baa08a594f647e4111bcbc3494e8270036ca1da6f462a4b23478c2142c009edca84972a89f59ae111f1e",
+          "sha256": "b1f5612f0397e7bf8578c11e00b5a53daa872a6d7609601bb6b3badaafc4cc6e",
+          "sha1": "d510e77dcfcbb58c651ab36c47d5600ac5c16304",
+          "md5": "bc817777bb4701a2fb90961ebcd70374"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_release-v2.0.1rc1.aar",
+          "url": "google_api_availability_android_release-v2.0.1rc1.aar",
+          "size": 13813,
+          "sha512": "368a4a15a6457cb7706fc21c55e9e02b205d8efd5366baa08a594f647e4111bcbc3494e8270036ca1da6f462a4b23478c2142c009edca84972a89f59ae111f1e",
+          "sha256": "b1f5612f0397e7bf8578c11e00b5a53daa872a6d7609601bb6b3badaafc4cc6e",
+          "sha1": "d510e77dcfcbb58c651ab36c47d5600ac5c16304",
+          "md5": "bc817777bb4701a2fb90961ebcd70374"
+        }
+      ]
+    }
+  ]
+}

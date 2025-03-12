@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.iyaffle.launchreview",
+    "module": "launch_review_debug",
+    "version": "v2.0.1rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_debug-v2.0.1rc1.aar",
+          "url": "launch_review_debug-v2.0.1rc1.aar",
+          "size": 5954,
+          "sha512": "b119835a973badd9283798cf267616790621345275bb81856f3e904bd129326168ca961d195a622bcb73ff1df5ec4bfffbe71ddf3f79ac4f2938f9d7d3d9c625",
+          "sha256": "052a9e01adc70aca2323f3240f3d2eddfac1a974b285337ca9a61860117683e9",
+          "sha1": "ce098b81586e1b372e435f2b4f261d1a69b553ab",
+          "md5": "35e3584435284b45af99a095abd67de5"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launch_review_debug-v2.0.1rc1.aar",
+          "url": "launch_review_debug-v2.0.1rc1.aar",
+          "size": 5954,
+          "sha512": "b119835a973badd9283798cf267616790621345275bb81856f3e904bd129326168ca961d195a622bcb73ff1df5ec4bfffbe71ddf3f79ac4f2938f9d7d3d9c625",
+          "sha256": "052a9e01adc70aca2323f3240f3d2eddfac1a974b285337ca9a61860117683e9",
+          "sha1": "ce098b81586e1b372e435f2b4f261d1a69b553ab",
+          "md5": "35e3584435284b45af99a095abd67de5"
+        }
+      ]
+    }
+  ]
+}
