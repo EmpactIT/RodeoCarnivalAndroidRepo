@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "camera_android_debug-2.1.0.aar",
           "url": "camera_android_debug-2.1.0.aar",
-          "size": 125291,
-          "sha512": "223947fc7ea5a3121e05d67b3bd97bfd7af36a2b9a8df6ff0316bb92babce08a6a768933c886bd8d7c7c4f5cf8e4655217cc8feac8a3f3f46f10bdf1607bcf25",
-          "sha256": "11bed0ee0632cdd039c51751d39a14cf5ae1e8771b19e20bd8d7c01de05605fd",
-          "sha1": "29d879da9cdbfa4fee147bafd4684498ba9bf333",
-          "md5": "d391e7f8ad62bfac475ae643b38f9f2e"
+          "size": 126942,
+          "sha512": "3d60cb660f6d92c2685ff50b81b6ab51f37cd12e34c35f149eaad1ab2d906123cd0b2c9a123b9f0427dc9d5720058c00d26fec7a288baa7fbe5ce29ed582740a",
+          "sha256": "3e1f10670eae758f441957b69953b10d5d695904e73432ed2d51780fba1220d3",
+          "sha1": "ed0344de49a428f81a3ed61a67e46e2608a12448",
+          "md5": "a58ea8bf02acf1f1b2f192794486d200"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
           }
         },
         {
@@ -78,11 +78,11 @@
         {
           "name": "camera_android_debug-2.1.0.aar",
           "url": "camera_android_debug-2.1.0.aar",
-          "size": 125291,
-          "sha512": "223947fc7ea5a3121e05d67b3bd97bfd7af36a2b9a8df6ff0316bb92babce08a6a768933c886bd8d7c7c4f5cf8e4655217cc8feac8a3f3f46f10bdf1607bcf25",
-          "sha256": "11bed0ee0632cdd039c51751d39a14cf5ae1e8771b19e20bd8d7c01de05605fd",
-          "sha1": "29d879da9cdbfa4fee147bafd4684498ba9bf333",
-          "md5": "d391e7f8ad62bfac475ae643b38f9f2e"
+          "size": 126942,
+          "sha512": "3d60cb660f6d92c2685ff50b81b6ab51f37cd12e34c35f149eaad1ab2d906123cd0b2c9a123b9f0427dc9d5720058c00d26fec7a288baa7fbe5ce29ed582740a",
+          "sha256": "3e1f10670eae758f441957b69953b10d5d695904e73432ed2d51780fba1220d3",
+          "sha1": "ed0344de49a428f81a3ed61a67e46e2608a12448",
+          "md5": "a58ea8bf02acf1f1b2f192794486d200"
         }
       ]
     }

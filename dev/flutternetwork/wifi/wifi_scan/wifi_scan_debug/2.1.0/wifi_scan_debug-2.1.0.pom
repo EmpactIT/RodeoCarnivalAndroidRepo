@@ -15,13 +15,13 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084</version>
+      <version>1.0.0-04817c99c9fd4956f27505204f7e344335810aed</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk7</artifactId>
-      <version>1.6.10</version>
+      <version>1.8.21</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
