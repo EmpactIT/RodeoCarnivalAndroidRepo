@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.connectivity",
+    "module": "connectivity_plus_release",
+    "version": "2.2.0rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_release-2.2.0rc1.aar",
+          "url": "connectivity_plus_release-2.2.0rc1.aar",
+          "size": 7789,
+          "sha512": "0c4dc3986100b3edd2c6a798ea2d1f94d626f69dba467a604712cc0f8e0a1043dd804c92cc5ae319a26c15c8f8d9f7f6a775a98101e1316e46f22afcb1aab6fd",
+          "sha256": "12c4aed287dc28ec3ab0db575cf3539bcf9535349f2c0daded28fe7e345ecbd9",
+          "sha1": "48eb81bb48bf7deb29dedc54bc31162050bb4e5d",
+          "md5": "bc2a87cf076cbb9e836d883a177e5f5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_release-2.2.0rc1.aar",
+          "url": "connectivity_plus_release-2.2.0rc1.aar",
+          "size": 7789,
+          "sha512": "0c4dc3986100b3edd2c6a798ea2d1f94d626f69dba467a604712cc0f8e0a1043dd804c92cc5ae319a26c15c8f8d9f7f6a775a98101e1316e46f22afcb1aab6fd",
+          "sha256": "12c4aed287dc28ec3ab0db575cf3539bcf9535349f2c0daded28fe7e345ecbd9",
+          "sha1": "48eb81bb48bf7deb29dedc54bc31162050bb4e5d",
+          "md5": "bc2a87cf076cbb9e836d883a177e5f5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_release-2.2.0rc1-sources.jar",
+          "url": "connectivity_plus_release-2.2.0rc1-sources.jar",
+          "size": 5518,
+          "sha512": "0c41bf323fcef58553dc1fd1dbf68460941f37d163544470982a5c9a25586a0677af1f9977c2017b4b0b11918912fd73eb499909c3d9ca3ab881ad7f3552c62d",
+          "sha256": "a82777fa9f9906c001a146aacca44b44a7f5c7bb1388bb186a3ae6fbae462854",
+          "sha1": "eebf9a42929aba7211c003f59863ed40d6d0aa85",
+          "md5": "7a487ef9385c43cac7bf7ad669fe8b11"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_release-2.2.0rc1-javadoc.jar",
+          "url": "connectivity_plus_release-2.2.0rc1-javadoc.jar",
+          "size": 278366,
+          "sha512": "d8ca7718158f76d41b5aefdcf400840cf64c41d012d37359606f7fbd537a3ac980250c59752ebe7efecb00ae262d1ea30163aba7b6c70ec320b53bd15aff20a5",
+          "sha256": "9003d633b3c6036b2aec22a7f791d5e6cde998e22ad0a6e732f2c2b5f9363a0e",
+          "sha1": "e85cddb106ffffe81b2f83bb0e726d40a85a38ff",
+          "md5": "5f34630fb18dd9d65a761634258ffde0"
+        }
+      ]
+    }
+  ]
+}

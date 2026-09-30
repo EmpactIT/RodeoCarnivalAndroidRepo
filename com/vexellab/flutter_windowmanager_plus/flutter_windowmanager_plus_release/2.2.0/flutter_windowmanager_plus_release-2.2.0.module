@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vexellab.flutter_windowmanager_plus",
+    "module": "flutter_windowmanager_plus_release",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_plus_release-2.2.0.aar",
+          "url": "flutter_windowmanager_plus_release-2.2.0.aar",
+          "size": 3623,
+          "sha512": "1c966f91896e80c72cfc395d78c4d34256b87148cf697846cafdab88d60744365ad4344ed2598e15f24d4e5f86bfe9bc548263f8232b155e349b43dba415cf77",
+          "sha256": "de997b766fd350eac3508e5a51eacc13269adf1c519b60effaef462279a9efd8",
+          "sha1": "3ec70fe0282f963e059bb1722ee23e9d33fbff7a",
+          "md5": "cedf1aa24dc50b54cc6d82ac5a727cd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_plus_release-2.2.0.aar",
+          "url": "flutter_windowmanager_plus_release-2.2.0.aar",
+          "size": 3623,
+          "sha512": "1c966f91896e80c72cfc395d78c4d34256b87148cf697846cafdab88d60744365ad4344ed2598e15f24d4e5f86bfe9bc548263f8232b155e349b43dba415cf77",
+          "sha256": "de997b766fd350eac3508e5a51eacc13269adf1c519b60effaef462279a9efd8",
+          "sha1": "3ec70fe0282f963e059bb1722ee23e9d33fbff7a",
+          "md5": "cedf1aa24dc50b54cc6d82ac5a727cd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_windowmanager_plus_release-2.2.0-sources.jar",
+          "url": "flutter_windowmanager_plus_release-2.2.0-sources.jar",
+          "size": 2993,
+          "sha512": "1abbb7ae8cba604e279ff64ee57370b126946055a75d5f1c232a03f91520aed15c23b337322da1b275b99d9a9af1d9d4eacf7ce384e21f4718164f0abca8aa5f",
+          "sha256": "650584ca32597e8f76a0cd3510f3df1c58d191f6bd6857f3aa1c0c0113bbbb87",
+          "sha1": "49bd90193556a888b9e94f890d3f9aed1ed675a1",
+          "md5": "df41a94515e32215b54a34f46a38ad13"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_windowmanager_plus_release-2.2.0-javadoc.jar",
+          "url": "flutter_windowmanager_plus_release-2.2.0-javadoc.jar",
+          "size": 262853,
+          "sha512": "7a0e3a21114679dc5b57306ed0870c54c167953370437f90969d712d2c7949176921f5ddbcaae838429518b2b74e1c464da22c70ece53379022a267e2f89d97d",
+          "sha256": "bd1e3afd101a2b7901831799607ae10a31276707b67122857243a265cb494878",
+          "sha1": "d23dd68748e01debb627ff5c1b9ee3fb89bff298",
+          "md5": "e9e4718a5a67eab7114f3873e3f4c112"
+        }
+      ]
+    }
+  ]
+}

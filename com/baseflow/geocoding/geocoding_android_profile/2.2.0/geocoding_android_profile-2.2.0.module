@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.geocoding",
+    "module": "geocoding_android_profile",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_profile-2.2.0.aar",
+          "url": "geocoding_android_profile-2.2.0.aar",
+          "size": 76932,
+          "sha512": "ed700e6c6931d186476f3a3726201667a74b64fed2f00539deb229576650332acedc91cd893a66b8cf21fffe6d421b6015dc05df1fe032a4454a91b866eb4fe6",
+          "sha256": "e1720663c00c826d413af61f2ec570074d3237558aea86f273e4dc21eadcf4fa",
+          "sha1": "c5abc5ccfb823896a4c0baec73fddf4be3e2058a",
+          "md5": "de27e5096b22a86c738d5f285780f66b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_profile-2.2.0.aar",
+          "url": "geocoding_android_profile-2.2.0.aar",
+          "size": 76932,
+          "sha512": "ed700e6c6931d186476f3a3726201667a74b64fed2f00539deb229576650332acedc91cd893a66b8cf21fffe6d421b6015dc05df1fe032a4454a91b866eb4fe6",
+          "sha256": "e1720663c00c826d413af61f2ec570074d3237558aea86f273e4dc21eadcf4fa",
+          "sha1": "c5abc5ccfb823896a4c0baec73fddf4be3e2058a",
+          "md5": "de27e5096b22a86c738d5f285780f66b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geocoding_android_profile-2.2.0-sources.jar",
+          "url": "geocoding_android_profile-2.2.0-sources.jar",
+          "size": 15494,
+          "sha512": "9018aa627a4801e9fba33174309fb29fc6939f50bdd24ed27a783ee02539a7702d41be3c62e769790a49acb0787766a11ecaa2169c8720ab8bb187f2115c7f99",
+          "sha256": "81a1eaf3ad05d35596d56ede94835050a35ac9a10b57402a95dd9f61f0087678",
+          "sha1": "0a2bdd3ba62b968a385cc8bedb62a0b27f671acc",
+          "md5": "c53d564ef32f72f8accfd038a20e70f3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geocoding_android_profile-2.2.0-javadoc.jar",
+          "url": "geocoding_android_profile-2.2.0-javadoc.jar",
+          "size": 394553,
+          "sha512": "5dbd575dcbfe88863a115c972d7cd6a92bedc8276ef44f9974dad5c7cc719692c62753c10949bc5689e8faa7d43f2cac6300e623839b9298095d2ca5ad83d409",
+          "sha256": "75cc679d452f37f9880daed37f804ecb5d07690cab81919364216c39f308a9d3",
+          "sha1": "0162cfe1444a61f7ad4704ac693d014cb6bd0c58",
+          "md5": "1e06fd31cc4fe009c3089c831cf4463f"
+        }
+      ]
+    }
+  ]
+}

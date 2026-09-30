@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_debug",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-2.2.0.aar",
+          "url": "wifi_iot_debug-2.2.0.aar",
+          "size": 38299,
+          "sha512": "6f092a6b7baec0b4cc19640521551ac92b5d4e4b05399e1ea92280b9b5d016efadd1ba756826f9895db5ba3b2c10a4aba67a56bca75b1d450227d9f6a4fc8858",
+          "sha256": "b4a961dbf171caf5c67d30a346e79bdc28f49034c7c5059a068f431d8ea498f2",
+          "sha1": "2c30b8d90cc0534b5d4a2af81fd5f178a95ed8f6",
+          "md5": "951c98a7fdf73e48b739a7d6616de6e7"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_debug-2.2.0.aar",
+          "url": "wifi_iot_debug-2.2.0.aar",
+          "size": 38299,
+          "sha512": "6f092a6b7baec0b4cc19640521551ac92b5d4e4b05399e1ea92280b9b5d016efadd1ba756826f9895db5ba3b2c10a4aba67a56bca75b1d450227d9f6a4fc8858",
+          "sha256": "b4a961dbf171caf5c67d30a346e79bdc28f49034c7c5059a068f431d8ea498f2",
+          "sha1": "2c30b8d90cc0534b5d4a2af81fd5f178a95ed8f6",
+          "md5": "951c98a7fdf73e48b739a7d6616de6e7"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_iot_debug-2.2.0-sources.jar",
+          "url": "wifi_iot_debug-2.2.0-sources.jar",
+          "size": 16672,
+          "sha512": "737aedd0f7121d8fe389565cc638560e0084121601c49d510567d665a07c111cf8f5487418637e4b134f85a7ef5a4b7eae4feb4fb539abf6e10109a409d0c77b",
+          "sha256": "78d20afced54211d84ee34759b0a087ee53ef4b15ba7cbbe1c102b0bbe26404f",
+          "sha1": "78e31d8e41c163bfa7c43f000e81446fd604047e",
+          "md5": "de162ae32675181e0481cebac91c6152"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_iot_debug-2.2.0-javadoc.jar",
+          "url": "wifi_iot_debug-2.2.0-javadoc.jar",
+          "size": 288053,
+          "sha512": "4acebb39c24da4fcb697febed975d39695559a51a68ff38d2d6ad8d012c437c8bab9906ada9b2ec78c6af9e44b2b3db7278aafad0d98a9f304fb11d1601e27ca",
+          "sha256": "f7414c48479bb0023cc0e6fdb4514488fab514a6d328f7feba44ebe065406c57",
+          "sha1": "904ae937a78d28accbbd6485f4f9750a6af353d4",
+          "md5": "c0854dfdec3864c32d611d31ee441b98"
+        }
+      ]
+    }
+  ]
+}

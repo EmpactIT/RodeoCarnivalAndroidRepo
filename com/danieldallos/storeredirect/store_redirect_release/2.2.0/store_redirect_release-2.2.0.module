@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.danieldallos.storeredirect",
+    "module": "store_redirect_release",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_release-2.2.0.aar",
+          "url": "store_redirect_release-2.2.0.aar",
+          "size": 2595,
+          "sha512": "ae7cfbb0755520ea28cf3c8fea9703650ce623018a157633bf4dc95023bc053943a458eade2301b1af0aefa0710218823559bf1831a19588e787c0990126311c",
+          "sha256": "a2361cb7199cebf8971505dd0805f771f07500b669b47aaf275e3df592696469",
+          "sha1": "ddfa0876173ec65d1c2e09a5aea28b1bbc564188",
+          "md5": "653a25748a70446143fa04c38c3c771a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_release-2.2.0.aar",
+          "url": "store_redirect_release-2.2.0.aar",
+          "size": 2595,
+          "sha512": "ae7cfbb0755520ea28cf3c8fea9703650ce623018a157633bf4dc95023bc053943a458eade2301b1af0aefa0710218823559bf1831a19588e787c0990126311c",
+          "sha256": "a2361cb7199cebf8971505dd0805f771f07500b669b47aaf275e3df592696469",
+          "sha1": "ddfa0876173ec65d1c2e09a5aea28b1bbc564188",
+          "md5": "653a25748a70446143fa04c38c3c771a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "store_redirect_release-2.2.0-sources.jar",
+          "url": "store_redirect_release-2.2.0-sources.jar",
+          "size": 1534,
+          "sha512": "472be5e971a78ba72f9d896169f9f716bfe6036063785d32f623bf6028767d3e46d2b4c90f660cd70c8292017c7f77d1077f7d5644b24ab8a888df57a63bf04f",
+          "sha256": "da42ed85e4160ae713a439a854534f4d5c7e527e08912de1c051f741d96fc11c",
+          "sha1": "a63c47d8f23f1601e036680b6c016e2fc32752da",
+          "md5": "3bd166fe51705a742b86ea3d051a4305"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "store_redirect_release-2.2.0-javadoc.jar",
+          "url": "store_redirect_release-2.2.0-javadoc.jar",
+          "size": 262592,
+          "sha512": "708471687e29a34302003bc20bebfe7db90c340587fe976669be32857070ddc7a9fc01a0f676e72432f392bfbebef1dacdd3de86450ae7f9127efeabe8f82e59",
+          "sha256": "a55518e0e5d021c1ba5af0a9ad8be93274ce5d6c978bda5f574d63c4b0175ec9",
+          "sha1": "c86a086a4087a7f9c02dd43e6a74c21af799ea5a",
+          "md5": "ecac8820640967a64ade8ed4ccadbb6b"
+        }
+      ]
+    }
+  ]
+}

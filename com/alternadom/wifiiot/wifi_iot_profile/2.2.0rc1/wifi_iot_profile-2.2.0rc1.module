@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alternadom.wifiiot",
+    "module": "wifi_iot_profile",
+    "version": "2.2.0rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_profile-2.2.0rc1.aar",
+          "url": "wifi_iot_profile-2.2.0rc1.aar",
+          "size": 38299,
+          "sha512": "6f092a6b7baec0b4cc19640521551ac92b5d4e4b05399e1ea92280b9b5d016efadd1ba756826f9895db5ba3b2c10a4aba67a56bca75b1d450227d9f6a4fc8858",
+          "sha256": "b4a961dbf171caf5c67d30a346e79bdc28f49034c7c5059a068f431d8ea498f2",
+          "sha1": "2c30b8d90cc0534b5d4a2af81fd5f178a95ed8f6",
+          "md5": "951c98a7fdf73e48b739a7d6616de6e7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_iot_profile-2.2.0rc1.aar",
+          "url": "wifi_iot_profile-2.2.0rc1.aar",
+          "size": 38299,
+          "sha512": "6f092a6b7baec0b4cc19640521551ac92b5d4e4b05399e1ea92280b9b5d016efadd1ba756826f9895db5ba3b2c10a4aba67a56bca75b1d450227d9f6a4fc8858",
+          "sha256": "b4a961dbf171caf5c67d30a346e79bdc28f49034c7c5059a068f431d8ea498f2",
+          "sha1": "2c30b8d90cc0534b5d4a2af81fd5f178a95ed8f6",
+          "md5": "951c98a7fdf73e48b739a7d6616de6e7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_iot_profile-2.2.0rc1-sources.jar",
+          "url": "wifi_iot_profile-2.2.0rc1-sources.jar",
+          "size": 16672,
+          "sha512": "737aedd0f7121d8fe389565cc638560e0084121601c49d510567d665a07c111cf8f5487418637e4b134f85a7ef5a4b7eae4feb4fb539abf6e10109a409d0c77b",
+          "sha256": "78d20afced54211d84ee34759b0a087ee53ef4b15ba7cbbe1c102b0bbe26404f",
+          "sha1": "78e31d8e41c163bfa7c43f000e81446fd604047e",
+          "md5": "de162ae32675181e0481cebac91c6152"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_iot_profile-2.2.0rc1-javadoc.jar",
+          "url": "wifi_iot_profile-2.2.0rc1-javadoc.jar",
+          "size": 288067,
+          "sha512": "b3e376113733b208162be628f774f46d476c3d9255cd33cd9ade00a8b8e08ceb2ff1d864a560ff895f2423edc46cb32675a56f29087800bfdcf60919f9872224",
+          "sha256": "a3d7e9e0bab0be699d284fa537eba7f387fa87c8a69e1ff071daeec144729d71",
+          "sha1": "a9a6ec58da3336bc6c70633598df65259f401b22",
+          "md5": "7bf7d44d98541af83f71a76719637312"
+        }
+      ]
+    }
+  ]
+}

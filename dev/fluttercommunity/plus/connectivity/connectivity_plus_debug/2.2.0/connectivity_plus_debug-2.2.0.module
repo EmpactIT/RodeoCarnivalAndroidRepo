@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.connectivity",
+    "module": "connectivity_plus_debug",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_debug-2.2.0.aar",
+          "url": "connectivity_plus_debug-2.2.0.aar",
+          "size": 8087,
+          "sha512": "f9a19577a250fbc319e6de1127c9139a4ed46495810a0c6567b49b08050a6cd3128cc4c84e86b70bb016d93572bb6f70fd00632b8d6a0a208ac509c5227b3821",
+          "sha256": "f7e9a05683c644e4479a85120a231ede2742b7d7a573b6aee6e8eeb70cb2cf2a",
+          "sha1": "d158631ad61c829fa7e57a761789b28b85367158",
+          "md5": "17048e90a5ac26556a7f2de8d74a50df"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_debug-2.2.0.aar",
+          "url": "connectivity_plus_debug-2.2.0.aar",
+          "size": 8087,
+          "sha512": "f9a19577a250fbc319e6de1127c9139a4ed46495810a0c6567b49b08050a6cd3128cc4c84e86b70bb016d93572bb6f70fd00632b8d6a0a208ac509c5227b3821",
+          "sha256": "f7e9a05683c644e4479a85120a231ede2742b7d7a573b6aee6e8eeb70cb2cf2a",
+          "sha1": "d158631ad61c829fa7e57a761789b28b85367158",
+          "md5": "17048e90a5ac26556a7f2de8d74a50df"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_debug-2.2.0-sources.jar",
+          "url": "connectivity_plus_debug-2.2.0-sources.jar",
+          "size": 5518,
+          "sha512": "0c41bf323fcef58553dc1fd1dbf68460941f37d163544470982a5c9a25586a0677af1f9977c2017b4b0b11918912fd73eb499909c3d9ca3ab881ad7f3552c62d",
+          "sha256": "a82777fa9f9906c001a146aacca44b44a7f5c7bb1388bb186a3ae6fbae462854",
+          "sha1": "eebf9a42929aba7211c003f59863ed40d6d0aa85",
+          "md5": "7a487ef9385c43cac7bf7ad669fe8b11"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_debug-2.2.0-javadoc.jar",
+          "url": "connectivity_plus_debug-2.2.0-javadoc.jar",
+          "size": 278357,
+          "sha512": "196f2101a22b6f2f900c70abadf78feebf109f1f451654a26015e7ed1772243334d58d836094baaa888999180a8cef0145ac61904ac26ae17c6c8c123eb55af9",
+          "sha256": "5be6ebd6cee66b9f2144063c9b6a178dde206292ec072eabb8d0c99e606a2baa",
+          "sha1": "53a0cfc2dc54903245ca6f09c1abef8a6dbbacd7",
+          "md5": "d444461fa914967070d7af07b82681db"
+        }
+      ]
+    }
+  ]
+}

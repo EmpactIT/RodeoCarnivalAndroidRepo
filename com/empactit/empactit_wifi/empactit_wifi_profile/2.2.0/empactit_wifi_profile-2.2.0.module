@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.empactit.empactit_wifi",
+    "module": "empactit_wifi_profile",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_profile-2.2.0.aar",
+          "url": "empactit_wifi_profile-2.2.0.aar",
+          "size": 3771,
+          "sha512": "bb157d0db0f4b1ebae4c98e3a6a130fd355dc332906d08cbd20f97f7a761d155142a241b623f8b07a5bd767ee907c234086fc2b731609b6b8fafb4f80a82ca97",
+          "sha256": "68780b0812d9fc3cb583fc26f07275358295e34545eb29f6e06c6554f3d78cc3",
+          "sha1": "d3fa85ac41d09495bc6a5bcd0b5c7cfbe6baddc7",
+          "md5": "34bb17c6e4c6ef1cbfa323a1657f6111"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "com.alternadom.wifiiot",
+          "module": "wifi_iot_profile",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "empactit_wifi_profile-2.2.0.aar",
+          "url": "empactit_wifi_profile-2.2.0.aar",
+          "size": 3771,
+          "sha512": "bb157d0db0f4b1ebae4c98e3a6a130fd355dc332906d08cbd20f97f7a761d155142a241b623f8b07a5bd767ee907c234086fc2b731609b6b8fafb4f80a82ca97",
+          "sha256": "68780b0812d9fc3cb583fc26f07275358295e34545eb29f6e06c6554f3d78cc3",
+          "sha1": "d3fa85ac41d09495bc6a5bcd0b5c7cfbe6baddc7",
+          "md5": "34bb17c6e4c6ef1cbfa323a1657f6111"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "empactit_wifi_profile-2.2.0-sources.jar",
+          "url": "empactit_wifi_profile-2.2.0-sources.jar",
+          "size": 2637,
+          "sha512": "45f656e4e0fdf666b791c4e3a93e8a7376109a3630cd2fa1dbdd65fcc58b7926e09226e58e0e32e63b30ea3ebcdb0165a8a599434c7ee10d68185ffc66486c44",
+          "sha256": "3b15e813eb358217d03c2b029e24572aba80138c8c54a4ed858a2e963b72b0f9",
+          "sha1": "5f5321a4f78b12be6c775449dfde70ec7c17c3cc",
+          "md5": "2c9848eae5dad965b0a7fe0ff44411fd"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "empactit_wifi_profile-2.2.0-javadoc.jar",
+          "url": "empactit_wifi_profile-2.2.0-javadoc.jar",
+          "size": 263924,
+          "sha512": "c53d7e460356b5c58666c81fc58298d141e51334af0cbac849abb1f8398df2cc939401848f9b4b673f922f11302fd6bb6f7b89151c796b79a0650608d1fa196e",
+          "sha256": "6d35624c52330d0eec54670633a1e54df57e322cf9ee62b628cd58346934d788",
+          "sha1": "460b584bc53dbe9f32cbedf1509a993859b7f2d3",
+          "md5": "bf4c4282c662e1c183e46d980f678e0a"
+        }
+      ]
+    }
+  ]
+}

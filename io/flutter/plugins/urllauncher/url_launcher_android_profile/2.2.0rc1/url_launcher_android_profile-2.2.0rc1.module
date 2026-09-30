@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.urllauncher",
+    "module": "url_launcher_android_profile",
+    "version": "2.2.0rc1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_profile-2.2.0rc1.aar",
+          "url": "url_launcher_android_profile-2.2.0rc1.aar",
+          "size": 30842,
+          "sha512": "2e486c69ba73a665525c7b65201987dbb5310587c5399cbfb33b569a6bbd77820bebdbe5ffa2762739133fc77a02b8d7e01e252ef4b9a581c1b10f3fd792ad2f",
+          "sha256": "c9778eaf34db1fe22d516874024574e8ae8757c029bc148e7941e47e8b237cc5",
+          "sha1": "3e5b1770434b7f1a89998f6697abc934fd2ac016",
+          "md5": "8f385f79948478e321ad2e717dd014d3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_profile-2.2.0rc1.aar",
+          "url": "url_launcher_android_profile-2.2.0rc1.aar",
+          "size": 30842,
+          "sha512": "2e486c69ba73a665525c7b65201987dbb5310587c5399cbfb33b569a6bbd77820bebdbe5ffa2762739133fc77a02b8d7e01e252ef4b9a581c1b10f3fd792ad2f",
+          "sha256": "c9778eaf34db1fe22d516874024574e8ae8757c029bc148e7941e47e8b237cc5",
+          "sha1": "3e5b1770434b7f1a89998f6697abc934fd2ac016",
+          "md5": "8f385f79948478e321ad2e717dd014d3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "url_launcher_android_profile-2.2.0rc1-sources.jar",
+          "url": "url_launcher_android_profile-2.2.0rc1-sources.jar",
+          "size": 9317,
+          "sha512": "b180fddcdf63230c7688f029694aa926a8012594b7baa0e57cfdf72a09e9a615edd89832e5cba9480e36bce54ffd12c8d89ece5a7f3ed1cf9c759f18491ac422",
+          "sha256": "b319a2c6545f42541249df68bfcbe469720eca8ac9f23251459797b6d1e1c231",
+          "sha1": "5ad05169067512b3227bb69fbcdce757f6e89bd3",
+          "md5": "17be1048a9974cd25cc35416ce55d751"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "url_launcher_android_profile-2.2.0rc1-javadoc.jar",
+          "url": "url_launcher_android_profile-2.2.0rc1-javadoc.jar",
+          "size": 333447,
+          "sha512": "af551aa8f601eb1d0761fd29ea5a0aa991a36cd8807eb52f1fbb04089dbbbaa4812dce9418e8f41eb5c2fb3165e11a6db3fc0cd055050aba80f06270ee378039",
+          "sha256": "419d29102a20133e9ff720bd4c6a8bfbf862dfbc2f788479859bd3e22e390c27",
+          "sha1": "be8097a640486b332ee98e4a6f55d46749351f7e",
+          "md5": "905421676de72f0fb397a893e2b2d6f9"
+        }
+      ]
+    }
+  ]
+}

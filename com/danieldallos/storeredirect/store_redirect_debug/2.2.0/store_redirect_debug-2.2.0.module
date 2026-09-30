@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.danieldallos.storeredirect",
+    "module": "store_redirect_debug",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-2.2.0.aar",
+          "url": "store_redirect_debug-2.2.0.aar",
+          "size": 2707,
+          "sha512": "a6ddbdb671e1fa15d90fd1674e68b8cd06efe758db87bb9cda87050cb47bc7bdb3d6f1104ab518650419f8571f0d2344f5e6bd8923956e6221b6784f4eeb9e79",
+          "sha256": "640fa46969e4c492842d54d26aa4abf8bc30351628d7c96b64f66d9901080dc1",
+          "sha1": "7e43fa4226dc5447884ab88833f6b8b73ab0ee64",
+          "md5": "666a651886a25a05dda31d395c11e202"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store_redirect_debug-2.2.0.aar",
+          "url": "store_redirect_debug-2.2.0.aar",
+          "size": 2707,
+          "sha512": "a6ddbdb671e1fa15d90fd1674e68b8cd06efe758db87bb9cda87050cb47bc7bdb3d6f1104ab518650419f8571f0d2344f5e6bd8923956e6221b6784f4eeb9e79",
+          "sha256": "640fa46969e4c492842d54d26aa4abf8bc30351628d7c96b64f66d9901080dc1",
+          "sha1": "7e43fa4226dc5447884ab88833f6b8b73ab0ee64",
+          "md5": "666a651886a25a05dda31d395c11e202"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "store_redirect_debug-2.2.0-sources.jar",
+          "url": "store_redirect_debug-2.2.0-sources.jar",
+          "size": 1534,
+          "sha512": "472be5e971a78ba72f9d896169f9f716bfe6036063785d32f623bf6028767d3e46d2b4c90f660cd70c8292017c7f77d1077f7d5644b24ab8a888df57a63bf04f",
+          "sha256": "da42ed85e4160ae713a439a854534f4d5c7e527e08912de1c051f741d96fc11c",
+          "sha1": "a63c47d8f23f1601e036680b6c016e2fc32752da",
+          "md5": "3bd166fe51705a742b86ea3d051a4305"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "store_redirect_debug-2.2.0-javadoc.jar",
+          "url": "store_redirect_debug-2.2.0-javadoc.jar",
+          "size": 262592,
+          "sha512": "708471687e29a34302003bc20bebfe7db90c340587fe976669be32857070ddc7a9fc01a0f676e72432f392bfbebef1dacdd3de86450ae7f9127efeabe8f82e59",
+          "sha256": "a55518e0e5d021c1ba5af0a9ad8be93274ce5d6c978bda5f574d63c4b0175ec9",
+          "sha1": "c86a086a4087a7f9c02dd43e6a74c21af799ea5a",
+          "md5": "ecac8820640967a64ade8ed4ccadbb6b"
+        }
+      ]
+    }
+  ]
+}
