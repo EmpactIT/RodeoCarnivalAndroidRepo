@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.dart_lang.jni",
+    "module": "jni_profile",
+    "version": "2.2.0rc3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jni_profile-2.2.0rc3.aar",
+          "url": "jni_profile-2.2.0rc3.aar",
+          "size": 109091,
+          "sha512": "7e5eac99db9f2e787d46744b613d624b60d30a1a36f3e68661a98f6101df6bef0aa19c51d8532ef08bd59f263da5896511c9190ec9b6c577ca6ef1a8505ad88c",
+          "sha256": "e28ff585237fe4bf13aa1dce9c1a87c9d81898d23b7844ccdae42b3719f8a522",
+          "sha1": "a33b8b1c078d03ad8bfd546010dd2bf23452e38c",
+          "md5": "c3824254300a527b5ba06fc4efa7c7e9"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jni_profile-2.2.0rc3.aar",
+          "url": "jni_profile-2.2.0rc3.aar",
+          "size": 109091,
+          "sha512": "7e5eac99db9f2e787d46744b613d624b60d30a1a36f3e68661a98f6101df6bef0aa19c51d8532ef08bd59f263da5896511c9190ec9b6c577ca6ef1a8505ad88c",
+          "sha256": "e28ff585237fe4bf13aa1dce9c1a87c9d81898d23b7844ccdae42b3719f8a522",
+          "sha1": "a33b8b1c078d03ad8bfd546010dd2bf23452e38c",
+          "md5": "c3824254300a527b5ba06fc4efa7c7e9"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni_profile-2.2.0rc3-sources.jar",
+          "url": "jni_profile-2.2.0rc3-sources.jar",
+          "size": 5459,
+          "sha512": "61c8d0b11708383673e2d967abe5948df4f9f1c20f77852bfc8e4da61a83bb5c2e7561a02692dc183a64b4f842555d66ebd142d02b6295313fcda91f9e8e0c15",
+          "sha256": "0762cdfe1e25701b53f0e55fde69135e74f25328f4b1c60e4778701833bfab6e",
+          "sha1": "09a60f323f1b590e7921cd33327514fe4d916cb1",
+          "md5": "3cf8aa129d418b4388b02cea9ff9819b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni_profile-2.2.0rc3-javadoc.jar",
+          "url": "jni_profile-2.2.0rc3-javadoc.jar",
+          "size": 283181,
+          "sha512": "7498288f7242fde20e79892f556e7d94e1bbd062df2ec7710e42224eceaa80e9df5c749db2cc752b4ba80aa1be38e45d2e6a3ac43a183cada053c1190f301ff0",
+          "sha256": "b20d205d562f4604af07c5d2dc518016a6a827974b8809197e146769e548e523",
+          "sha1": "55269c927cbfb5c0b1ebe9b2f628d918efb7c1d1",
+          "md5": "223affaabf7cad342903bfa3e197b421"
+        }
+      ]
+    }
+  ]
+}
