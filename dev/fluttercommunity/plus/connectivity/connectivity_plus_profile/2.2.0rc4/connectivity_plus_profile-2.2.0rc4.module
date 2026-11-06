@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.connectivity",
+    "module": "connectivity_plus_profile",
+    "version": "2.2.0rc4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_profile-2.2.0rc4.aar",
+          "url": "connectivity_plus_profile-2.2.0rc4.aar",
+          "size": 8087,
+          "sha512": "f9a19577a250fbc319e6de1127c9139a4ed46495810a0c6567b49b08050a6cd3128cc4c84e86b70bb016d93572bb6f70fd00632b8d6a0a208ac509c5227b3821",
+          "sha256": "f7e9a05683c644e4479a85120a231ede2742b7d7a573b6aee6e8eeb70cb2cf2a",
+          "sha1": "d158631ad61c829fa7e57a761789b28b85367158",
+          "md5": "17048e90a5ac26556a7f2de8d74a50df"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-69c8c61792f04cc809dfef0c910414fb9afc06cd"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectivity_plus_profile-2.2.0rc4.aar",
+          "url": "connectivity_plus_profile-2.2.0rc4.aar",
+          "size": 8087,
+          "sha512": "f9a19577a250fbc319e6de1127c9139a4ed46495810a0c6567b49b08050a6cd3128cc4c84e86b70bb016d93572bb6f70fd00632b8d6a0a208ac509c5227b3821",
+          "sha256": "f7e9a05683c644e4479a85120a231ede2742b7d7a573b6aee6e8eeb70cb2cf2a",
+          "sha1": "d158631ad61c829fa7e57a761789b28b85367158",
+          "md5": "17048e90a5ac26556a7f2de8d74a50df"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_profile-2.2.0rc4-sources.jar",
+          "url": "connectivity_plus_profile-2.2.0rc4-sources.jar",
+          "size": 5518,
+          "sha512": "0c41bf323fcef58553dc1fd1dbf68460941f37d163544470982a5c9a25586a0677af1f9977c2017b4b0b11918912fd73eb499909c3d9ca3ab881ad7f3552c62d",
+          "sha256": "a82777fa9f9906c001a146aacca44b44a7f5c7bb1388bb186a3ae6fbae462854",
+          "sha1": "eebf9a42929aba7211c003f59863ed40d6d0aa85",
+          "md5": "7a487ef9385c43cac7bf7ad669fe8b11"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connectivity_plus_profile-2.2.0rc4-javadoc.jar",
+          "url": "connectivity_plus_profile-2.2.0rc4-javadoc.jar",
+          "size": 278369,
+          "sha512": "26175b61574ce495c6945975697fab673c8c21a234bf633ba95157050aa4172b3fa28541488fbb73949062e8cf140507f57a8c31c6c257dcf3ead418f6bff3c6",
+          "sha256": "c4b60476766b6250aedfe574c5aed110bdb89f81b2fab9bcb85322faa435c04e",
+          "sha1": "87d2e30ca6c99e9e08197d4fef6229d937a39a90",
+          "md5": "ffd17d49437982265ec842fa609fae6c"
+        }
+      ]
+    }
+  ]
+}
