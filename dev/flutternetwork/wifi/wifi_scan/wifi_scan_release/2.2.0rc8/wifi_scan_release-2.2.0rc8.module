@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.flutternetwork.wifi.wifi_scan",
+    "module": "wifi_scan_release",
+    "version": "2.2.0rc8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_release-2.2.0rc8.aar",
+          "url": "wifi_scan_release-2.2.0rc8.aar",
+          "size": 13439,
+          "sha512": "04fbecc30477055795201e7194fb9230114004a32f375f169b40dd70fc70c86065381915f1f66e740d4569524e8c4a8cdb288125d12ffaf64312f8e9aae00f94",
+          "sha256": "7986b5d837fd8ce53c0a5ce656d20cf1f375dd8cde675bd9dd450a1c562fd220",
+          "sha1": "5113f7eec4031a5e235ea616cc99a85d0daac31f",
+          "md5": "1211b332970608bf78d1825320f178b0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifi_scan_release-2.2.0rc8.aar",
+          "url": "wifi_scan_release-2.2.0rc8.aar",
+          "size": 13439,
+          "sha512": "04fbecc30477055795201e7194fb9230114004a32f375f169b40dd70fc70c86065381915f1f66e740d4569524e8c4a8cdb288125d12ffaf64312f8e9aae00f94",
+          "sha256": "7986b5d837fd8ce53c0a5ce656d20cf1f375dd8cde675bd9dd450a1c562fd220",
+          "sha1": "5113f7eec4031a5e235ea616cc99a85d0daac31f",
+          "md5": "1211b332970608bf78d1825320f178b0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_scan_release-2.2.0rc8-sources.jar",
+          "url": "wifi_scan_release-2.2.0rc8-sources.jar",
+          "size": 4227,
+          "sha512": "0e11a1eef1e287ddb29b921a88055b83914f458a4afeefcdb79463e927ca7e47a144084d6d936557e0cc97a6d2119c35b7c5c220babf95e024220a3fbec6e080",
+          "sha256": "71c42effa5183ea631373d72f73b64ed2a405d08a3d0c2e630b60f2856b0eb9b",
+          "sha1": "42aba03830c424d4152edaf7f4067b9d7329a65a",
+          "md5": "8f0a1a48523e881d5aebc8ed08d594c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wifi_scan_release-2.2.0rc8-javadoc.jar",
+          "url": "wifi_scan_release-2.2.0rc8-javadoc.jar",
+          "size": 263814,
+          "sha512": "f62e4edfc43cb79d3913606057f52348790dfb4f2df76783f8f7c2950acddbdc5accf2a21dab3ab7b9bb67d34dc4e92a0da407bb8af8b682eccc4833371e04cf",
+          "sha256": "d6dc44504d6de84ed5a5cae291fe49baee4b90baf3e2683ee365f60c0c4939d5",
+          "sha1": "713af5beabeb14b63c5eb89d37ae878dec260353",
+          "md5": "cc5054f63f86a94e3ac854428e0c1440"
+        }
+      ]
+    }
+  ]
+}

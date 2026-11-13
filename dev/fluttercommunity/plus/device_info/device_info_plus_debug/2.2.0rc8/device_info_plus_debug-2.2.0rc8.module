@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.device_info",
+    "module": "device_info_plus_debug",
+    "version": "2.2.0rc8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_debug-2.2.0rc8.aar",
+          "url": "device_info_plus_debug-2.2.0rc8.aar",
+          "size": 7800,
+          "sha512": "586705f2213d4f7f28b55b7f117236f05033aaa884e6fb569c55c6621e8e1d71dcfcc42799e376c2dfd7260b859c9ef63cfb2a5e14fc17fc9a724e408c367b2c",
+          "sha256": "64f0588bd264d84d84935f067cde699c7e88e9bf90de0e08455184af853ceb76",
+          "sha1": "7337d3ec42fdb81c68f0ad2e774fd9901caef22c",
+          "md5": "fafe7a8ee3864fcf423691a41865b0b0"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_debug-2.2.0rc8.aar",
+          "url": "device_info_plus_debug-2.2.0rc8.aar",
+          "size": 7800,
+          "sha512": "586705f2213d4f7f28b55b7f117236f05033aaa884e6fb569c55c6621e8e1d71dcfcc42799e376c2dfd7260b859c9ef63cfb2a5e14fc17fc9a724e408c367b2c",
+          "sha256": "64f0588bd264d84d84935f067cde699c7e88e9bf90de0e08455184af853ceb76",
+          "sha1": "7337d3ec42fdb81c68f0ad2e774fd9901caef22c",
+          "md5": "fafe7a8ee3864fcf423691a41865b0b0"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device_info_plus_debug-2.2.0rc8-sources.jar",
+          "url": "device_info_plus_debug-2.2.0rc8-sources.jar",
+          "size": 3125,
+          "sha512": "b9cb00c45bc93bb579209e570cc6bccd93db4bc096aa171224af075e8692c8781fa658075ca0fac74487a49fa688512631128c1179a925ebcfc7e0df2ac1c49f",
+          "sha256": "881c3ff7cebe7fa7dcbc12c9cd124932bc1986640af6e78c69608b8c0a68b939",
+          "sha1": "baedb19f71c1d446920d5e7702e29ce5e368c7d4",
+          "md5": "cd8cd56bd2b0956e8e0eb8238a55e8dc"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device_info_plus_debug-2.2.0rc8-javadoc.jar",
+          "url": "device_info_plus_debug-2.2.0rc8-javadoc.jar",
+          "size": 260831,
+          "sha512": "acd51a280cc5969b025daff8ce7faf25dda2b64d0766826cee5edcaab4ddfd9320a6bd0ed446a2c6181c69f545a3c3d9b92a37d7dfa1c81f79f694bd5802d7f3",
+          "sha256": "1d2b62b0c82d0b1ae7b32ca33a62fc8d839a8a8f2ffd6a70acffdc7b838ecc9f",
+          "sha1": "090eee43e9a351057c5db78757e33e6376a42f69",
+          "md5": "4a9046772eb5d9398e6589a19ec8df2f"
+        }
+      ]
+    }
+  ]
+}

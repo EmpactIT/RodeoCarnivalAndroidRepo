@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pay_android",
+    "module": "pay_android_profile",
+    "version": "2.2.0rc8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_profile-2.2.0rc8.aar",
+          "url": "pay_android_profile-2.2.0rc8.aar",
+          "size": 23807,
+          "sha512": "b222dadf2b5eb17dc907635d4f744e13402bb09dcf9262da9e2595330ea93ec64d8389b1106319f8e78166f525dd8ddbd03260de7e7f6de91e98eeeacd6f867d",
+          "sha256": "622ec6f55f5bb2a3730aa0f970189272abbafb6687f29f23e05ac5fd18cbae82",
+          "sha1": "5d2c2127b8004ae4ec853e4daa7b181478160d90",
+          "md5": "ad6cfce4f6258f6f8d73c23a4187fd16"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-89c39edfdfae2949f6806e4a315c0c08522238b7"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay_android_profile-2.2.0rc8.aar",
+          "url": "pay_android_profile-2.2.0rc8.aar",
+          "size": 23807,
+          "sha512": "b222dadf2b5eb17dc907635d4f744e13402bb09dcf9262da9e2595330ea93ec64d8389b1106319f8e78166f525dd8ddbd03260de7e7f6de91e98eeeacd6f867d",
+          "sha256": "622ec6f55f5bb2a3730aa0f970189272abbafb6687f29f23e05ac5fd18cbae82",
+          "sha1": "5d2c2127b8004ae4ec853e4daa7b181478160d90",
+          "md5": "ad6cfce4f6258f6f8d73c23a4187fd16"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pay_android_profile-2.2.0rc8-sources.jar",
+          "url": "pay_android_profile-2.2.0rc8-sources.jar",
+          "size": 10545,
+          "sha512": "9d221a27d20dfec7d3231a4e60e1a52ddaeb2da9a17857ceeefcea17a688d17fb7da85acf447bf7316e68ab5b78242fd42de5a63a56e62fca6a1f57c9742a212",
+          "sha256": "a44f1227c059eb244c6dd77dadc853258f99a65a992761c3ec7ab714a42e09db",
+          "sha1": "46924b9a413b27324d4be1c478d959a7a3f15490",
+          "md5": "079d17719b0832269738a4ae2ab18108"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pay_android_profile-2.2.0rc8-javadoc.jar",
+          "url": "pay_android_profile-2.2.0rc8-javadoc.jar",
+          "size": 307789,
+          "sha512": "77193d724cc25c3bfdc481ee7a7afb64bbdef56ebbdbc3e9d24e5e45973d7d7b4cdfbe5b810763f4e3c24afae1cb3163c20e5e50860735efaaae5e0659da2fa4",
+          "sha256": "83a31b562999ce84285f5fde7029e3ba986e3199c042ffe35c1fc943473fc199",
+          "sha1": "24367530e6f2890c733f108fab7478941d36a800",
+          "md5": "180f7293f7cb1cbbf8278d8d6d2d156e"
+        }
+      ]
+    }
+  ]
+}
